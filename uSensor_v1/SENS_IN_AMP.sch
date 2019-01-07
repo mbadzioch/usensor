@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -49,17 +49,17 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5C6F020C
-P 5300 2750
+P 5300 2650
 AR Path="/5C6F020C" Ref="C?"  Part="1" 
 AR Path="/5C6EFF05/5C6F020C" Ref="C?"  Part="1" 
 AR Path="/5C86721C/5C6F020C" Ref="C?"  Part="1" 
 AR Path="/5C829D40/5C6F020C" Ref="C?"  Part="1" 
 AR Path="/5C7ECB16/5C6F020C" Ref="C?"  Part="1" 
-F 0 "C?" H 5415 2796 50  0000 L CNN
-F 1 "1p" H 5415 2705 50  0000 L CNN
-F 2 "" H 5338 2600 50  0001 C CNN
-F 3 "~" H 5300 2750 50  0001 C CNN
-	1    5300 2750
+F 0 "C?" H 5415 2696 50  0000 L CNN
+F 1 "1p" H 5415 2605 50  0000 L CNN
+F 2 "" H 5338 2500 50  0001 C CNN
+F 3 "~" H 5300 2650 50  0001 C CNN
+	1    5300 2650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -120,7 +120,7 @@ F 3 "~" H 5300 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5450 2750 5450 2850
+	5450 2650 5450 2850
 Connection ~ 5150 2850
 Wire Wire Line
 	5150 2850 5150 3000
@@ -129,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3300 4900 3300
 Wire Wire Line
-	5150 2750 5150 2850
+	5150 2650 5150 2850
 Wire Wire Line
 	5000 2850 5150 2850
 Wire Wire Line
@@ -149,6 +149,7 @@ AR Path="/5C6F023D" Ref="#PWR?"  Part="1"
 AR Path="/5C6EFF05/5C6F023D" Ref="#PWR?"  Part="1" 
 AR Path="/5C86721C/5C6F023D" Ref="#PWR?"  Part="1" 
 AR Path="/5C829D40/5C6F023D" Ref="#PWR?"  Part="1" 
+AR Path="/5C7ECB16/5C6F023D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4950 3850 50  0001 C CNN
 F 1 "GND" H 4955 3927 50  0000 C CNN
 F 2 "" H 4950 4100 50  0001 C CNN
@@ -171,6 +172,7 @@ AR Path="/5C6F0247" Ref="#PWR?"  Part="1"
 AR Path="/5C6EFF05/5C6F0247" Ref="#PWR?"  Part="1" 
 AR Path="/5C86721C/5C6F0247" Ref="#PWR?"  Part="1" 
 AR Path="/5C829D40/5C6F0247" Ref="#PWR?"  Part="1" 
+AR Path="/5C7ECB16/5C6F0247" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6000 4050 50  0001 C CNN
 F 1 "-5V" V 6015 4078 50  0000 L CNN
 F 2 "" H 6000 3950 50  0001 C CNN
@@ -186,6 +188,7 @@ AR Path="/5C6F024D" Ref="#PWR?"  Part="1"
 AR Path="/5C6EFF05/5C6F024D" Ref="#PWR?"  Part="1" 
 AR Path="/5C86721C/5C6F024D" Ref="#PWR?"  Part="1" 
 AR Path="/5C829D40/5C6F024D" Ref="#PWR?"  Part="1" 
+AR Path="/5C7ECB16/5C6F024D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6000 2600 50  0001 C CNN
 F 1 "+5V" V 6015 2878 50  0000 L CNN
 F 2 "" H 6000 2750 50  0001 C CNN
@@ -216,6 +219,7 @@ AR Path="/5C6F025A" Ref="#PWR?"  Part="1"
 AR Path="/5C6EFF05/5C6F025A" Ref="#PWR?"  Part="1" 
 AR Path="/5C86721C/5C6F025A" Ref="#PWR?"  Part="1" 
 AR Path="/5C829D40/5C6F025A" Ref="#PWR?"  Part="1" 
+AR Path="/5C7ECB16/5C6F025A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6000 2800 50  0001 C CNN
 F 1 "GND" H 6005 2877 50  0000 C CNN
 F 2 "" H 6000 3050 50  0001 C CNN
@@ -231,6 +235,7 @@ AR Path="/5C6F0260" Ref="C?"  Part="1"
 AR Path="/5C6EFF05/5C6F0260" Ref="C?"  Part="1" 
 AR Path="/5C86721C/5C6F0260" Ref="C?"  Part="1" 
 AR Path="/5C829D40/5C6F0260" Ref="C?"  Part="1" 
+AR Path="/5C7ECB16/5C6F0260" Ref="C?"  Part="1" 
 F 0 "C?" H 6115 4146 50  0000 L CNN
 F 1 "100n 6V3 X5R" H 6115 4055 50  0000 L CNN
 F 2 "" H 6038 3950 50  0001 C CNN
@@ -246,6 +251,7 @@ AR Path="/5C6F0267" Ref="#PWR?"  Part="1"
 AR Path="/5C6EFF05/5C6F0267" Ref="#PWR?"  Part="1" 
 AR Path="/5C86721C/5C6F0267" Ref="#PWR?"  Part="1" 
 AR Path="/5C829D40/5C6F0267" Ref="#PWR?"  Part="1" 
+AR Path="/5C7ECB16/5C6F0267" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6000 4000 50  0001 C CNN
 F 1 "GND" H 6005 4077 50  0000 C CNN
 F 2 "" H 6000 4250 50  0001 C CNN
