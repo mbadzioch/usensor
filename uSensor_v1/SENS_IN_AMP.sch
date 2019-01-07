@@ -25,7 +25,7 @@ AR Path="/5C829D40/5C6F01FE" Ref="U?"  Part="1"
 AR Path="/5C7ECB16/5C6F01FE" Ref="U?"  Part="1" 
 F 0 "U?" H 5500 3650 50  0000 L CNN
 F 1 "LM6132A/NS" H 5650 3650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 5400 3550 50  0001 C CNN
+F 2 "" H 5400 3550 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf" H 5400 3750 50  0001 C CNN
 	1    5400 3550
 	1    0    0    -1  
@@ -204,6 +204,7 @@ AR Path="/5C6F0253" Ref="C?"  Part="1"
 AR Path="/5C6EFF05/5C6F0253" Ref="C?"  Part="1" 
 AR Path="/5C86721C/5C6F0253" Ref="C?"  Part="1" 
 AR Path="/5C829D40/5C6F0253" Ref="C?"  Part="1" 
+AR Path="/5C7ECB16/5C6F0253" Ref="C?"  Part="1" 
 F 0 "C?" H 6115 2946 50  0000 L CNN
 F 1 "100n 6V3 X5R" H 6115 2855 50  0000 L CNN
 F 2 "" H 6038 2750 50  0001 C CNN
