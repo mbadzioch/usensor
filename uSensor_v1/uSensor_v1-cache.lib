@@ -1,13 +1,14 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amplifier_Operational:AD8603
+# Amplifier_Operational_AD8603
 #
-DEF Amplifier_Operational:AD8603 U 0 5 Y Y 1 F N
+DEF Amplifier_Operational_AD8603 U 0 5 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Amplifier_Operational:AD8603" 0 -200 50 H V L CNN
+F1 "Amplifier_Operational_AD8603" 0 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TSOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
+ALIAS OPA188xxDBV
 $FPLIST
  TSOT*23*
 $ENDFPLIST
@@ -21,38 +22,11 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Connector:Screw_Terminal_01x03
+# Connector_Generic_Conn_01x06
 #
-DEF Connector:Screw_Terminal_01x03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Screw_Terminal_01x03" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TerminalBlock*:*
-$ENDFPLIST
-DRAW
-C 0 -100 25 1 1 6 N
-C 0 0 25 1 1 6 N
-C 0 100 25 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-P 2 1 1 6 -21 -87 13 -120 N
-P 2 1 1 6 -21 13 13 -20 N
-P 2 1 1 6 -21 113 13 80 N
-P 2 1 1 6 -14 -80 20 -113 N
-P 2 1 1 6 -14 20 20 -13 N
-P 2 1 1 6 -14 120 20 87 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x06
-#
-DEF Connector_Generic:Conn_01x06 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic:Conn_01x06" 0 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -75,11 +49,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_MountingPin:Conn_02x08_Odd_Even_MountingPin
+# Connector_Generic_MountingPin_Conn_02x08_Odd_Even_MountingPin
 #
-DEF Connector_Generic_MountingPin:Conn_02x08_Odd_Even_MountingPin J 0 40 Y N 1 F N
+DEF Connector_Generic_MountingPin_Conn_02x08_Odd_Even_MountingPin J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic_MountingPin:Conn_02x08_Odd_Even_MountingPin" 100 -500 50 H V L CNN
+F1 "Connector_Generic_MountingPin_Conn_02x08_Odd_Even_MountingPin" 100 -500 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -125,11 +99,38 @@ X MountPin MP 50 -600 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Connector_Screw_Terminal_01x03
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Connector_Screw_Terminal_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -143,11 +144,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:CP
+# Device_CP
 #
-DEF Device:CP C 0 10 N Y 1 F N
+DEF Device_CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:CP" 25 -100 50 H V L CNN
+F1 "Device_CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -166,11 +167,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Fuse
+# Device_Fuse
 #
-DEF Device:Fuse F 0 0 N Y 1 F N
+DEF Device_Fuse F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "Device:Fuse" -75 0 50 V V C CNN
+F1 "Device_Fuse" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -184,11 +185,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:L
+# Device_L
 #
-DEF Device:L L 0 40 N N 1 F N
+DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device:L" 75 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -207,11 +208,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -230,11 +231,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NPN_BCE
+# Device_Q_NPN_BCE
 #
-DEF Device:Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF Device_Q_NPN_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "Device_Q_NPN_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -249,11 +250,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_PNP_BCE
+# Device_Q_PNP_BCE
 #
-DEF Device:Q_PNP_BCE Q 0 0 Y N 1 F N
+DEF Device_Q_PNP_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PNP_BCE" 200 -50 50 H V L CNN
+F1 "Device_Q_PNP_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -268,11 +269,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -285,11 +286,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Thermistor
+# Device_Thermistor
 #
-DEF Device:Thermistor TH 0 0 N Y 1 F N
+DEF Device_Thermistor TH 0 0 N Y 1 F N
 F0 "TH" 100 50 50 V V C CNN
-F1 "Device:Thermistor" -100 0 50 V V C BNN
+F1 "Device_Thermistor" -100 0 50 V V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -303,11 +304,11 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Varistor
+# Device_Varistor
 #
-DEF Device:Varistor RV 0 0 N Y 1 F N
+DEF Device_Varistor RV 0 0 N Y 1 F N
 F0 "RV" 125 0 50 V V C CNN
-F1 "Device:Varistor" -125 0 50 V V C CNN
+F1 "Device_Varistor" -125 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -323,11 +324,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode:1.5KExxA
+# Diode_1.5KExxA
 #
-DEF Diode:1.5KExxA D 0 40 N N 1 F N
+DEF Diode_1.5KExxA D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode:1.5KExxA" 0 -100 50 H V C CNN
+F1 "Diode_1.5KExxA" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" 0 -200 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 ALIAS 1N62xxA 1N630xA
@@ -342,11 +343,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Isolator:4N25
+# Isolator_4N25
 #
-DEF Isolator:4N25 U 0 40 Y Y 1 F N
+DEF Isolator_4N25 U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V L CNN
-F1 "Isolator:4N25" 0 200 50 H V L CNN
+F1 "Isolator_4N25" 0 200 50 H V L CNN
 F2 "Package_DIP:DIP-6_W7.62mm" -200 -200 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS 4N26 TIL111 4N27 4N28 4N35 4N36 4N37
@@ -376,11 +377,11 @@ X ~ 6 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_ST_STM32F4:STM32F407VGTx
+# MCU_ST_STM32F4_STM32F407VGTx
 #
-DEF MCU_ST_STM32F4:STM32F407VGTx U 0 20 Y Y 1 F N
+DEF MCU_ST_STM32F4_STM32F407VGTx U 0 20 Y Y 1 F N
 F0 "U" -700 2550 50 H V L CNN
-F1 "MCU_ST_STM32F4:STM32F407VGTx" 500 2550 50 H V L CNN
+F1 "MCU_ST_STM32F4_STM32F407VGTx" 500 2550 50 H V L CNN
 F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" -700 -2600 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS STM32F407VGTx
@@ -492,11 +493,11 @@ X VSS 99 100 -2800 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Reference_Voltage:REF192
+# Reference_Voltage_REF192
 #
-DEF Reference_Voltage:REF192 U 0 20 Y Y 1 F N
+DEF Reference_Voltage_REF192 U 0 20 Y Y 1 F N
 F0 "U" 100 350 50 H V C CNN
-F1 "Reference_Voltage:REF192" 50 250 50 H V L CNN
+F1 "Reference_Voltage_REF192" 50 250 50 H V L CNN
 F2 "" 0 -50 50 H I C CIN
 F3 "" 0 -50 50 H I C CIN
 ALIAS REF192 REF193 REF194 REF195 REF196 REF198
@@ -518,11 +519,11 @@ X NC 8 100 -200 100 U 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# Sensor_Temperature:MCP9700AT-ETT
+# Sensor_Temperature_MCP9700AT-ETT
 #
-DEF Sensor_Temperature:MCP9700AT-ETT U 0 40 Y Y 1 F N
+DEF Sensor_Temperature_MCP9700AT-ETT U 0 40 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "Sensor_Temperature:MCP9700AT-ETT" 50 250 50 H V L CNN
+F1 "Sensor_Temperature_MCP9700AT-ETT" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 0 -400 50 H I C CNN
 F3 "" -150 250 50 H I C CNN
 ALIAS MCP9700T-ETT MCP9700AT-HTT MCP9700AT-ETT
@@ -547,11 +548,73 @@ X GND 3 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_Push
+# Sentisa-Displays_UG-2864KSWLG01
 #
-DEF Switch:SW_Push SW 0 40 N N 1 F N
+DEF Sentisa-Displays_UG-2864KSWLG01 U 0 40 Y Y 1 F N
+F0 "U" -450 1600 50 H V C CNN
+F1 "Sentisa-Displays_UG-2864KSWLG01" 150 1600 50 H V C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+S -500 1550 500 -1550 0 1 10 f
+X N.C. 1 -700 1450 200 R 50 50 1 1 P
+X BS0 10 -700 550 200 R 50 50 1 1 I
+X BS1 11 -700 450 200 R 50 50 1 1 I
+X BS2 12 -700 350 200 R 50 50 1 1 I
+X CS# 13 -700 250 200 R 50 50 1 1 I
+X RES# 14 -700 150 200 R 50 50 1 1 I
+X D/C# 15 -700 50 200 R 50 50 1 1 I
+X R/W# 16 -700 -50 200 R 50 50 1 1 I
+X E/RD# 17 -700 -150 200 R 50 50 1 1 I
+X D0 18 -700 -250 200 R 50 50 1 1 B
+X D1 19 -700 -350 200 R 50 50 1 1 B
+X C2P 2 -700 1350 200 R 50 50 1 1 I
+X D2 20 -700 -450 200 R 50 50 1 1 B
+X D3 21 -700 -550 200 R 50 50 1 1 B
+X D4 22 -700 -650 200 R 50 50 1 1 B
+X D5 23 -700 -750 200 R 50 50 1 1 B
+X D6 24 -700 -850 200 R 50 50 1 1 B
+X D7 25 -700 -950 200 R 50 50 1 1 B
+X IREF 26 -700 -1050 200 R 50 50 1 1 I
+X VCOMH 27 -700 -1150 200 R 50 50 1 1 O
+X VCC 28 -700 -1250 200 R 50 50 1 1 W
+X VLSS 29 -700 -1350 200 R 50 50 1 1 W
+X C2N 3 -700 1250 200 R 50 50 1 1 I
+X N.C. 30 -700 -1450 200 R 50 50 1 1 P
+X C1P 4 -700 1150 200 R 50 50 1 1 I
+X C1N 5 -700 1050 200 R 50 50 1 1 I
+X VBAT 6 -700 950 200 R 50 50 1 1 W
+X N.C. 7 -700 850 200 R 50 50 1 1 P
+X VSS 8 -700 750 200 R 50 50 1 1 W
+X VDD 9 -700 650 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Sentisa-IC_AME5-505TCJZ
+#
+DEF Sentisa-IC_AME5-505TCJZ U 0 40 Y Y 1 F N
+F0 "U" -450 400 50 H V C CNN
+F1 "Sentisa-IC_AME5-505TCJZ" 200 400 50 H V C CNN
+F2 "" 0 0 150 H I C CNN
+F3 "" 0 0 150 H I C CNN
+DRAW
+S -500 350 500 -350 0 1 10 f
+X +Vout_1 ~ 700 250 200 L 50 50 1 1 w
+X +Vout_2 ~ 700 -50 200 L 50 50 1 1 w
+X -Vout_1 ~ 700 150 200 L 50 50 1 1 w
+X -Vout_2 ~ 700 -250 200 L 50 50 1 1 w
+X AC_L ~ -700 250 200 R 50 50 1 1 W
+X AC_N ~ -700 150 200 R 50 50 1 1 W
+X Com ~ 700 -150 200 L 50 50 1 1 w
+X Earth/GND ~ -700 -250 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -564,11 +627,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -580,11 +643,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -595,11 +658,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5VD
+# power_+5VD
 #
-DEF power:+5VD #PWR 0 0 Y Y 1 F P
+DEF power_+5VD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5VD" 0 140 50 H V C CNN
+F1 "power_+5VD" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -610,11 +673,11 @@ X +5VD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:-5V
+# power_-5V
 #
-DEF power:-5V #PWR 0 0 Y Y 1 F P
+DEF power_-5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "power:-5V" 0 150 50 H V C CNN
+F1 "power_-5V" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -623,11 +686,11 @@ X -5V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# power:Earth
+# power_Earth
 #
-DEF ~power:Earth #PWR 0 0 Y Y 1 F P
+DEF ~power_Earth #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:Earth" 0 -150 50 H I C CNN
+F1 "power_Earth" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -639,11 +702,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

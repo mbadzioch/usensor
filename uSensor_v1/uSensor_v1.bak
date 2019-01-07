@@ -11395,4 +11395,6 @@ Text Notes 3450 5550 0    50   ~ 0
 DO ZMIANY !\n
 Text Notes 5750 5200 0    50   ~ 0
 Brakuje generacji 3V3\n
+Text Notes 15050 4650 0    50   ~ 0
+Dodać sterowanie z DAC mikroprocka,\n wybor zworka na 3 goldpinach
 $EndSCHEMATC
