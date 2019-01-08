@@ -19,14 +19,14 @@ L Amplifier_Operational:AD8603 U?
 U 1 1 5C6F01FE
 P 5400 3550
 AR Path="/5C6F01FE" Ref="U?"  Part="1" 
-AR Path="/5C6EFF05/5C6F01FE" Ref="U?"  Part="1" 
+AR Path="/5C6EFF05/5C6F01FE" Ref="U16"  Part="1" 
 AR Path="/5C86721C/5C6F01FE" Ref="U?"  Part="1" 
 AR Path="/5C829D40/5C6F01FE" Ref="U?"  Part="1" 
 AR Path="/5C7ECB16/5C6F01FE" Ref="U?"  Part="1" 
-AR Path="/5D09CD82/5C6F01FE" Ref="U?"  Part="1" 
-AR Path="/5D0DF15B/5C6F01FE" Ref="U?"  Part="1" 
-AR Path="/5D1213F6/5C6F01FE" Ref="U?"  Part="1" 
-F 0 "U?" H 5500 3650 50  0000 L CNN
+AR Path="/5D09CD82/5C6F01FE" Ref="U19"  Part="1" 
+AR Path="/5D0DF15B/5C6F01FE" Ref="U20"  Part="1" 
+AR Path="/5D1213F6/5C6F01FE" Ref="U21"  Part="1" 
+F 0 "U21" H 5500 3650 50  0000 L CNN
 F 1 "LM6132A/NS" H 5400 3350 50  0000 L CNN
 F 2 "" H 5400 3550 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf" H 5400 3750 50  0001 C CNN
@@ -38,14 +38,14 @@ L Device:R R?
 U 1 1 5C6F0205
 P 4450 3650
 AR Path="/5C6F0205" Ref="R?"  Part="1" 
-AR Path="/5C6EFF05/5C6F0205" Ref="R?"  Part="1" 
+AR Path="/5C6EFF05/5C6F0205" Ref="R36"  Part="1" 
 AR Path="/5C86721C/5C6F0205" Ref="R?"  Part="1" 
 AR Path="/5C829D40/5C6F0205" Ref="R?"  Part="1" 
 AR Path="/5C7ECB16/5C6F0205" Ref="R?"  Part="1" 
-AR Path="/5D09CD82/5C6F0205" Ref="R?"  Part="1" 
-AR Path="/5D0DF15B/5C6F0205" Ref="R?"  Part="1" 
-AR Path="/5D1213F6/5C6F0205" Ref="R?"  Part="1" 
-F 0 "R?" V 4243 3650 50  0000 C CNN
+AR Path="/5D09CD82/5C6F0205" Ref="R54"  Part="1" 
+AR Path="/5D0DF15B/5C6F0205" Ref="R58"  Part="1" 
+AR Path="/5D1213F6/5C6F0205" Ref="R62"  Part="1" 
+F 0 "R62" V 4243 3650 50  0000 C CNN
 F 1 "10k" V 4334 3650 50  0000 C CNN
 F 2 "" V 4380 3650 50  0001 C CNN
 F 3 "~" H 4450 3650 50  0001 C CNN
@@ -57,14 +57,14 @@ L Device:C C?
 U 1 1 5C6F020C
 P 5350 2500
 AR Path="/5C6F020C" Ref="C?"  Part="1" 
-AR Path="/5C6EFF05/5C6F020C" Ref="C?"  Part="1" 
+AR Path="/5C6EFF05/5C6F020C" Ref="C51"  Part="1" 
 AR Path="/5C86721C/5C6F020C" Ref="C?"  Part="1" 
 AR Path="/5C829D40/5C6F020C" Ref="C?"  Part="1" 
 AR Path="/5C7ECB16/5C6F020C" Ref="C?"  Part="1" 
-AR Path="/5D09CD82/5C6F020C" Ref="C?"  Part="1" 
-AR Path="/5D0DF15B/5C6F020C" Ref="C?"  Part="1" 
-AR Path="/5D1213F6/5C6F020C" Ref="C?"  Part="1" 
-F 0 "C?" V 5098 2500 50  0000 C CNN
+AR Path="/5D09CD82/5C6F020C" Ref="C58"  Part="1" 
+AR Path="/5D0DF15B/5C6F020C" Ref="C61"  Part="1" 
+AR Path="/5D1213F6/5C6F020C" Ref="C64"  Part="1" 
+F 0 "C64" V 5098 2500 50  0000 C CNN
 F 1 "1p" V 5189 2500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 2350 50  0001 C CNN
 F 3 "~" H 5350 2500 50  0001 C CNN
@@ -76,14 +76,14 @@ L Device:R R?
 U 1 1 5C6F0213
 P 4700 3900
 AR Path="/5C6F0213" Ref="R?"  Part="1" 
-AR Path="/5C6EFF05/5C6F0213" Ref="R?"  Part="1" 
+AR Path="/5C6EFF05/5C6F0213" Ref="R37"  Part="1" 
 AR Path="/5C86721C/5C6F0213" Ref="R?"  Part="1" 
 AR Path="/5C829D40/5C6F0213" Ref="R?"  Part="1" 
 AR Path="/5C7ECB16/5C6F0213" Ref="R?"  Part="1" 
-AR Path="/5D09CD82/5C6F0213" Ref="R?"  Part="1" 
-AR Path="/5D0DF15B/5C6F0213" Ref="R?"  Part="1" 
-AR Path="/5D1213F6/5C6F0213" Ref="R?"  Part="1" 
-F 0 "R?" H 4770 3946 50  0000 L CNN
+AR Path="/5D09CD82/5C6F0213" Ref="R55"  Part="1" 
+AR Path="/5D0DF15B/5C6F0213" Ref="R59"  Part="1" 
+AR Path="/5D1213F6/5C6F0213" Ref="R63"  Part="1" 
+F 0 "R63" H 4770 3946 50  0000 L CNN
 F 1 "22k" H 4770 3855 50  0000 L CNN
 F 2 "" V 4630 3900 50  0001 C CNN
 F 3 "~" H 4700 3900 50  0001 C CNN
@@ -104,14 +104,14 @@ L Device:R R?
 U 1 1 5C6F0221
 P 4450 3300
 AR Path="/5C6F0221" Ref="R?"  Part="1" 
-AR Path="/5C6EFF05/5C6F0221" Ref="R?"  Part="1" 
+AR Path="/5C6EFF05/5C6F0221" Ref="R35"  Part="1" 
 AR Path="/5C86721C/5C6F0221" Ref="R?"  Part="1" 
 AR Path="/5C829D40/5C6F0221" Ref="R?"  Part="1" 
 AR Path="/5C7ECB16/5C6F0221" Ref="R?"  Part="1" 
-AR Path="/5D09CD82/5C6F0221" Ref="R?"  Part="1" 
-AR Path="/5D0DF15B/5C6F0221" Ref="R?"  Part="1" 
-AR Path="/5D1213F6/5C6F0221" Ref="R?"  Part="1" 
-F 0 "R?" V 4243 3300 50  0000 C CNN
+AR Path="/5D09CD82/5C6F0221" Ref="R53"  Part="1" 
+AR Path="/5D0DF15B/5C6F0221" Ref="R57"  Part="1" 
+AR Path="/5D1213F6/5C6F0221" Ref="R61"  Part="1" 
+F 0 "R61" V 4243 3300 50  0000 C CNN
 F 1 "10k" V 4334 3300 50  0000 C CNN
 F 2 "" V 4380 3300 50  0001 C CNN
 F 3 "~" H 4450 3300 50  0001 C CNN
@@ -123,14 +123,14 @@ L Device:R R?
 U 1 1 5C6F0228
 P 5350 2850
 AR Path="/5C6F0228" Ref="R?"  Part="1" 
-AR Path="/5C6EFF05/5C6F0228" Ref="R?"  Part="1" 
+AR Path="/5C6EFF05/5C6F0228" Ref="R34"  Part="1" 
 AR Path="/5C86721C/5C6F0228" Ref="R?"  Part="1" 
 AR Path="/5C829D40/5C6F0228" Ref="R?"  Part="1" 
 AR Path="/5C7ECB16/5C6F0228" Ref="R?"  Part="1" 
-AR Path="/5D09CD82/5C6F0228" Ref="R?"  Part="1" 
-AR Path="/5D0DF15B/5C6F0228" Ref="R?"  Part="1" 
-AR Path="/5D1213F6/5C6F0228" Ref="R?"  Part="1" 
-F 0 "R?" V 5143 2850 50  0000 C CNN
+AR Path="/5D09CD82/5C6F0228" Ref="R52"  Part="1" 
+AR Path="/5D0DF15B/5C6F0228" Ref="R56"  Part="1" 
+AR Path="/5D1213F6/5C6F0228" Ref="R60"  Part="1" 
+F 0 "R60" V 5143 2850 50  0000 C CNN
 F 1 "22k" V 5234 2850 50  0000 C CNN
 F 2 "" V 5280 2850 50  0001 C CNN
 F 3 "~" H 5350 2850 50  0001 C CNN
@@ -157,14 +157,14 @@ L Device:C C?
 U 1 1 5C6F0253
 P 6000 2750
 AR Path="/5C6F0253" Ref="C?"  Part="1" 
-AR Path="/5C6EFF05/5C6F0253" Ref="C?"  Part="1" 
+AR Path="/5C6EFF05/5C6F0253" Ref="C52"  Part="1" 
 AR Path="/5C86721C/5C6F0253" Ref="C?"  Part="1" 
 AR Path="/5C829D40/5C6F0253" Ref="C?"  Part="1" 
 AR Path="/5C7ECB16/5C6F0253" Ref="C?"  Part="1" 
-AR Path="/5D09CD82/5C6F0253" Ref="C?"  Part="1" 
-AR Path="/5D0DF15B/5C6F0253" Ref="C?"  Part="1" 
-AR Path="/5D1213F6/5C6F0253" Ref="C?"  Part="1" 
-F 0 "C?" H 6115 2796 50  0000 L CNN
+AR Path="/5D09CD82/5C6F0253" Ref="C59"  Part="1" 
+AR Path="/5D0DF15B/5C6F0253" Ref="C62"  Part="1" 
+AR Path="/5D1213F6/5C6F0253" Ref="C65"  Part="1" 
+F 0 "C65" H 6115 2796 50  0000 L CNN
 F 1 "100n 6V3 X5R" H 6115 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 2600 50  0001 C CNN
 F 3 "~" H 6000 2750 50  0001 C CNN
@@ -176,14 +176,14 @@ L Device:C C?
 U 1 1 5C6F0260
 P 6000 4500
 AR Path="/5C6F0260" Ref="C?"  Part="1" 
-AR Path="/5C6EFF05/5C6F0260" Ref="C?"  Part="1" 
+AR Path="/5C6EFF05/5C6F0260" Ref="C53"  Part="1" 
 AR Path="/5C86721C/5C6F0260" Ref="C?"  Part="1" 
 AR Path="/5C829D40/5C6F0260" Ref="C?"  Part="1" 
 AR Path="/5C7ECB16/5C6F0260" Ref="C?"  Part="1" 
-AR Path="/5D09CD82/5C6F0260" Ref="C?"  Part="1" 
-AR Path="/5D0DF15B/5C6F0260" Ref="C?"  Part="1" 
-AR Path="/5D1213F6/5C6F0260" Ref="C?"  Part="1" 
-F 0 "C?" H 6115 4546 50  0000 L CNN
+AR Path="/5D09CD82/5C6F0260" Ref="C60"  Part="1" 
+AR Path="/5D0DF15B/5C6F0260" Ref="C63"  Part="1" 
+AR Path="/5D1213F6/5C6F0260" Ref="C66"  Part="1" 
+F 0 "C66" H 6115 4546 50  0000 L CNN
 F 1 "100n 6V3 X5R" H 6115 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 4350 50  0001 C CNN
 F 3 "~" H 6000 4500 50  0001 C CNN
