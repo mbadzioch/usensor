@@ -1434,13 +1434,13 @@ Wire Wire Line
 	6950 18200 7200 18200
 Wire Wire Line
 	6050 17600 6300 17600
-Text Notes 5400 18300 0    50   ~ 0
+Text Notes 5450 18300 0    50   ~ 0
 A
-Text Notes 5400 17800 0    50   ~ 0
+Text Notes 5450 17800 0    50   ~ 0
 B
-Text Notes 5400 18600 0    50   ~ 0
+Text Notes 5450 18600 0    50   ~ 0
 C
-Text Notes 5400 18100 0    50   ~ 0
+Text Notes 5450 18100 0    50   ~ 0
 D
 Wire Wire Line
 	5850 18300 6050 18300
@@ -3377,21 +3377,6 @@ Wire Wire Line
 	13200 4950 13600 4950
 Wire Wire Line
 	13200 4650 13900 4650
-Text GLabel 14400 5050 2    50   BiDi ~ 0
-USB_ID
-Wire Wire Line
-	14400 5050 13300 5050
-$Comp
-L Diode:1N62xxA D10
-U 1 1 636216C0
-P 14200 5300
-F 0 "D10" V 14154 5379 50  0000 L CNN
-F 1 "TBD" V 14245 5379 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 14200 5100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 14150 5300 50  0001 C CNN
-	1    14200 5300
-	0    1    1    0   
-$EndComp
 $Comp
 L Diode:1N62xxA D9
 U 1 1 636215B8
@@ -3414,22 +3399,6 @@ F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13550 5300 50  0001 C CNN
 	1    13600 5300
 	0    1    1    0   
 $EndComp
-$Comp
-L Diode:1N62xxA D7
-U 1 1 636210BD
-P 13300 5300
-F 0 "D7" V 13254 5379 50  0000 L CNN
-F 1 "TBD" V 13345 5379 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 13300 5100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13250 5300 50  0001 C CNN
-	1    13300 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13300 5150 13300 5050
-Connection ~ 13300 5050
-Wire Wire Line
-	13300 5050 12600 5050
 Wire Wire Line
 	13600 5150 13600 4950
 Connection ~ 13600 4950
@@ -3440,10 +3409,6 @@ Wire Wire Line
 Connection ~ 13900 4650
 Wire Wire Line
 	13900 4650 14400 4650
-Wire Wire Line
-	12600 4650 12600 4400
-Wire Wire Line
-	14200 4400 14400 4400
 $Comp
 L power:GND #PWR033
 U 1 1 639691C2
@@ -3460,24 +3425,14 @@ Wire Wire Line
 Wire Wire Line
 	13300 5550 13600 5550
 Wire Wire Line
-	14200 5550 14200 5450
-Connection ~ 13300 5550
-Wire Wire Line
-	13300 5550 13300 5450
-Wire Wire Line
 	13900 5450 13900 5550
-Connection ~ 13900 5550
-Wire Wire Line
-	13900 5550 14200 5550
 Wire Wire Line
 	13600 5450 13600 5550
 Connection ~ 13600 5550
 Wire Wire Line
 	13600 5550 13900 5550
-Text GLabel 14400 4400 2    50   BiDi ~ 0
-USB_VBUS
 Text Notes 11950 4150 0    150  ~ 30
-USB CONNECTOR
+USB CONNECTOR-NOK
 Wire Notes Line
 	11950 3900 15400 3900
 Wire Notes Line
@@ -4041,22 +3996,10 @@ Wire Wire Line
 Connection ~ 3900 5000
 Wire Wire Line
 	11100 6450 10400 6450
-Text GLabel 10500 7650 2    50   BiDi ~ 0
+Text GLabel 11100 7650 2    50   BiDi ~ 0
 USB_D+
-Text GLabel 10500 7550 2    50   BiDi ~ 0
+Text GLabel 11100 7550 2    50   BiDi ~ 0
 USB_D-
-Text GLabel 10500 7450 2    50   BiDi ~ 0
-USB_ID
-Text GLabel 11100 7350 2    50   BiDi ~ 0
-USB_VBUS
-Wire Wire Line
-	11100 7350 10400 7350
-Wire Wire Line
-	10500 7450 10400 7450
-Wire Wire Line
-	10400 7550 10500 7550
-Wire Wire Line
-	10500 7650 10400 7650
 $Comp
 L Sentisa-Microcontrollers:STM32F407VGTx U3
 U 1 1 6483C79E
@@ -4321,11 +4264,6 @@ F 3 "~" H 4750 29150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 29150 4750 29050
-Wire Wire Line
-	14200 5150 14200 4400
-Connection ~ 14200 4400
-Wire Wire Line
-	12600 4400 14200 4400
 Text GLabel 11150 9850 2    40   Input ~ 0
 TEMP_SENS_OUT_1
 Text GLabel 11150 9950 2    40   Input ~ 0
@@ -4433,16 +4371,6 @@ Wire Notes Line
 	5850 14750 5850 14400
 Text Notes 5900 14700 0    150  ~ 30
 ?
-Wire Notes Line
-	15250 4100 15250 4550
-Wire Notes Line
-	15250 4550 14250 4550
-Wire Notes Line
-	14250 4550 14250 4100
-Wire Notes Line
-	14250 4100 15250 4100
-Text Notes 15000 4450 0    150  ~ 30
-?
 $Comp
 L power:GNDA #PWR0110
 U 1 1 694403F9
@@ -4523,4 +4451,20 @@ Wire Wire Line
 	11150 10850 10400 10850
 Wire Wire Line
 	11150 10750 10400 10750
+Wire Notes Line
+	6250 15000 6700 15000
+Wire Notes Line
+	6700 15000 6700 15250
+Wire Notes Line
+	6700 15250 6250 15250
+Wire Notes Line
+	6250 15250 6250 15000
+Text Notes 6350 15250 0    150  ~ 30
+?
+NoConn ~ 12600 4650
+NoConn ~ 12600 5050
+Text GLabel 11100 7450 2    50   BiDi ~ 0
+USB_ID
+Text GLabel 11100 7350 2    50   BiDi ~ 0
+USB_VBUS
 $EndSCHEMATC
