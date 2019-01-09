@@ -27,7 +27,7 @@ AR Path="/5D09CD82/5C6F01FE" Ref="U19"  Part="1"
 AR Path="/5D0DF15B/5C6F01FE" Ref="U20"  Part="1" 
 AR Path="/5D1213F6/5C6F01FE" Ref="U21"  Part="1" 
 F 0 "U21" H 5500 3650 50  0000 L CNN
-F 1 "TBD LM6132A/NS" H 5400 3350 50  0000 L CNN
+F 1 "TBD" H 5400 3350 50  0000 L CNN
 F 2 "" H 5400 3550 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf" H 5400 3750 50  0001 C CNN
 	1    5400 3550
