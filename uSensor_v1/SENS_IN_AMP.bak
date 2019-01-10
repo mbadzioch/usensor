@@ -261,4 +261,36 @@ Text HLabel 6000 2400 1    50   UnSpc ~ 0
 PWR_IN+
 Text HLabel 6000 4150 1    50   UnSpc ~ 0
 PWR_IN-
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D2C6388
+P 4900 2600
+AR Path="/5D2C6388" Ref="TP?"  Part="1" 
+AR Path="/5D0DF15B/5D2C6388" Ref="TP66"  Part="1" 
+AR Path="/5C6EFF05/5D2C6388" Ref="TP62"  Part="1" 
+AR Path="/5D09CD82/5D2C6388" Ref="TP64"  Part="1" 
+AR Path="/5D1213F6/5D2C6388" Ref="TP68"  Part="1" 
+F 0 "TP68" H 4900 2925 50  0000 C CNN
+F 1 "TP" H 4900 2834 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 5100 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D2C69C6
+P 5000 3350
+AR Path="/5D2C69C6" Ref="TP?"  Part="1" 
+AR Path="/5D0DF15B/5D2C69C6" Ref="TP67"  Part="1" 
+AR Path="/5C6EFF05/5D2C69C6" Ref="TP63"  Part="1" 
+AR Path="/5D09CD82/5D2C69C6" Ref="TP65"  Part="1" 
+AR Path="/5D1213F6/5D2C69C6" Ref="TP69"  Part="1" 
+F 0 "TP69" H 5000 3675 50  0000 C CNN
+F 1 "TP" H 5000 3584 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 5200 3350 50  0001 C CNN
+F 3 "~" H 5200 3350 50  0001 C CNN
+	1    5000 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -301,4 +301,32 @@ Text Notes 7400 3450 0    150  ~ 30
 ?
 Text Notes 7450 4100 0    150  ~ 30
 ?
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D2DDD20
+P 3350 3800
+AR Path="/5D2DDD20" Ref="TP?"  Part="1" 
+AR Path="/5C398D6C/5D2DDD20" Ref="TP80"  Part="1" 
+AR Path="/5C839FF6/5D2DDD20" Ref="TP82"  Part="1" 
+F 0 "TP82" V 3545 3874 50  0000 C CNN
+F 1 "TP" V 3454 3874 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 3550 3800 50  0001 C CNN
+F 3 "~" H 3550 3800 50  0001 C CNN
+	1    3350 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D2DE6A8
+P 6300 3300
+AR Path="/5D2DE6A8" Ref="TP?"  Part="1" 
+AR Path="/5C398D6C/5D2DE6A8" Ref="TP79"  Part="1" 
+AR Path="/5C839FF6/5D2DE6A8" Ref="TP81"  Part="1" 
+F 0 "TP81" H 6300 3625 50  0000 C CNN
+F 1 "TP" H 6300 3534 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 6500 3300 50  0001 C CNN
+F 3 "~" H 6500 3300 50  0001 C CNN
+	1    6300 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
