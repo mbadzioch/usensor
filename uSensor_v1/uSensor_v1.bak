@@ -186,13 +186,15 @@ F 3 "~" H 4150 26550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q2
+L Device:Q_NPN_BEC Q2
 U 1 1 5C095341
 P 4950 25750
 F 0 "Q2" H 5141 25796 50  0000 L CNN
-F 1 "BC817-25T116" H 5141 25705 50  0000 L CNN
-F 2 "TBD" H 5150 25850 50  0001 C CNN
+F 1 "BC817-25" H 5141 25705 50  0000 L CNN
+F 2 "Sentisa-IC:SOT-23_o1" H 5150 25850 50  0001 C CNN
 F 3 "~" H 4950 25750 50  0001 C CNN
+F 4 "Diotec Semiconductor" H 4950 25750 50  0001 C CNN "MFR"
+F 5 "BC817-25" H 4950 25750 50  0001 C CNN "MPN"
 	1    4950 25750
 	1    0    0    -1  
 $EndComp
@@ -225,7 +227,7 @@ Connection ~ 4550 25750
 Wire Wire Line
 	4550 25750 4750 25750
 Wire Wire Line
-	3850 25650 3600 25650
+	3850 25650 3750 25650
 Wire Wire Line
 	2750 25750 2850 25750
 Wire Wire Line
@@ -240,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 26550 2050 26550
 Wire Wire Line
-	2050 26550 2050 25850
+	2050 26550 2050 26050
 Connection ~ 2050 25850
 Wire Wire Line
 	2050 25850 900  25850
@@ -512,7 +514,7 @@ F 3 "~" H 19750 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	19300 4700 19600 4700
+	19300 4700 19500 4700
 Wire Wire Line
 	19300 4800 20000 4800
 Wire Wire Line
@@ -531,7 +533,7 @@ F 3 "~" H 20300 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	19300 4900 20150 4900
+	19300 4900 20050 4900
 Wire Wire Line
 	20550 5000 20550 4900
 Wire Wire Line
@@ -1445,7 +1447,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 18600 5550 18600
 Wire Wire Line
-	5350 22000 5350 18100
+	5350 22000 5350 19200
 Wire Wire Line
 	5350 18100 5550 18100
 $Comp
@@ -1965,42 +1967,42 @@ Wire Wire Line
 $Comp
 L Device:R_POT RV1
 U 1 1 5CC918D0
-P 3450 25650
-F 0 "RV1" H 3380 25696 50  0000 R CNN
-F 1 "10k" H 3380 25605 50  0000 R CNN
-F 2 "Sentisa-Resistors:Potentiometer_SR_Passives_T910W_Vertical" H 3450 25650 50  0001 C CNN
-F 3 "~" H 3450 25650 50  0001 C CNN
-F 4 "SR Passives" H 3450 25650 50  0001 C CNN "MFR"
-F 5 "T910W-10K" H 3450 25650 50  0001 C CNN "MPN"
-	1    3450 25650
+P 3500 25650
+F 0 "RV1" H 3430 25696 50  0000 R CNN
+F 1 "10k" H 3430 25605 50  0000 R CNN
+F 2 "Sentisa-Resistors:Potentiometer_SR_Passives_T910W_Vertical" H 3500 25650 50  0001 C CNN
+F 3 "~" H 3500 25650 50  0001 C CNN
+F 4 "SR Passives" H 3500 25650 50  0001 C CNN "MFR"
+F 5 "T910W-10K" H 3500 25650 50  0001 C CNN "MPN"
+	1    3500 25650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR07
 U 1 1 5CC919E2
-P 3450 25400
-F 0 "#PWR07" H 3450 25250 50  0001 C CNN
-F 1 "+5V" H 3465 25573 50  0000 C CNN
-F 2 "" H 3450 25400 50  0001 C CNN
-F 3 "" H 3450 25400 50  0001 C CNN
-	1    3450 25400
+P 3500 25400
+F 0 "#PWR07" H 3500 25250 50  0001 C CNN
+F 1 "+5V" H 3515 25573 50  0000 C CNN
+F 2 "" H 3500 25400 50  0001 C CNN
+F 3 "" H 3500 25400 50  0001 C CNN
+	1    3500 25400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 25400 3450 25500
+	3500 25400 3500 25500
 $Comp
 L power:GND #PWR010
 U 1 1 5CCD8BDD
-P 3450 25900
-F 0 "#PWR010" H 3450 25650 50  0001 C CNN
-F 1 "GND" H 3455 25727 50  0000 C CNN
-F 2 "" H 3450 25900 50  0001 C CNN
-F 3 "" H 3450 25900 50  0001 C CNN
-	1    3450 25900
+P 3500 25900
+F 0 "#PWR010" H 3500 25650 50  0001 C CNN
+F 1 "GND" H 3505 25727 50  0000 C CNN
+F 2 "" H 3500 25900 50  0001 C CNN
+F 3 "" H 3500 25900 50  0001 C CNN
+	1    3500 25900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 25900 3450 25800
+	3500 25900 3500 25800
 $Comp
 L power:+5V #PWR019
 U 1 1 5CD23839
@@ -2119,13 +2121,15 @@ Wire Wire Line
 Text GLabel 7550 26450 3    50   Input ~ 0
 SENS_LD_PWR
 $Comp
-L Device:Q_NPN_BCE Q1
+L Device:Q_NPN_BEC Q1
 U 1 1 5E1B4B2A
 P 7450 25750
 F 0 "Q1" H 7641 25796 50  0000 L CNN
-F 1 "BC817-25T116" H 7641 25705 50  0000 L CNN
-F 2 "TBD" H 7650 25850 50  0001 C CNN
+F 1 "BC817-25" H 7641 25705 50  0000 L CNN
+F 2 "Sentisa-IC:SOT-23_o1" H 7650 25850 50  0001 C CNN
 F 3 "~" H 7450 25750 50  0001 C CNN
+F 4 "Diotec Semiconductor" H 7450 25750 50  0001 C CNN "MFR"
+F 5 "BC817-25" H 7450 25750 50  0001 C CNN "MPN"
 	1    7450 25750
 	1    0    0    -1  
 $EndComp
@@ -2399,11 +2403,11 @@ F6 "PWR_IN+" I L 4050 22000 50
 F7 "PWR_IN-" I L 4050 22100 50 
 $EndSheet
 Wire Wire Line
-	4950 22000 5350 22000
+	4950 22000 5050 22000
 Wire Wire Line
-	4950 20600 5250 20600
+	4950 20600 5050 20600
 Wire Wire Line
-	4950 19200 5150 19200
+	4950 19200 5050 19200
 Wire Wire Line
 	4950 17800 5050 17800
 Wire Wire Line
@@ -3211,53 +3215,53 @@ Wire Notes Line
 $Comp
 L Device:C C67
 U 1 1 647CDF83
-P 2000 7350
-F 0 "C67" H 2115 7396 50  0000 L CNN
-F 1 "2u2 6v3 X5R" H 2115 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2038 7200 50  0001 C CNN
-F 3 "~" H 2000 7350 50  0001 C CNN
-	1    2000 7350
+P 1950 7350
+F 0 "C67" H 2065 7396 50  0000 L CNN
+F 1 "2u2 6v3 X5R" H 2065 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 7200 50  0001 C CNN
+F 3 "~" H 1950 7350 50  0001 C CNN
+	1    1950 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR076
 U 1 1 647CDF8A
-P 2000 7700
-F 0 "#PWR076" H 2000 7450 50  0001 C CNN
-F 1 "GND" H 2005 7527 50  0000 C CNN
-F 2 "" H 2000 7700 50  0001 C CNN
-F 3 "" H 2000 7700 50  0001 C CNN
-	1    2000 7700
+P 1950 7700
+F 0 "#PWR076" H 1950 7450 50  0001 C CNN
+F 1 "GND" H 1955 7527 50  0000 C CNN
+F 2 "" H 1950 7700 50  0001 C CNN
+F 3 "" H 1950 7700 50  0001 C CNN
+	1    1950 7700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 7700 2000 7600
+	1950 7700 1950 7600
 Wire Wire Line
-	2000 7200 2000 6950
+	1950 7200 1950 6950
 Wire Wire Line
-	2000 6950 2600 6950
+	1950 6950 2600 6950
 $Comp
 L Device:C C20
 U 1 1 647CDF93
-P 1750 7350
-F 0 "C20" H 1636 7396 50  0000 R CNN
-F 1 "2u2 6V3 X5R" H 1636 7305 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1788 7200 50  0001 C CNN
-F 3 "~" H 1750 7350 50  0001 C CNN
-	1    1750 7350
+P 1700 7350
+F 0 "C20" H 1586 7396 50  0000 R CNN
+F 1 "2u2 6V3 X5R" H 1586 7305 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1738 7200 50  0001 C CNN
+F 3 "~" H 1700 7350 50  0001 C CNN
+	1    1700 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 7600 1750 7600
+	1950 7600 1700 7600
 Wire Wire Line
-	1750 7600 1750 7500
-Connection ~ 2000 7600
+	1700 7600 1700 7500
+Connection ~ 1950 7600
 Wire Wire Line
-	2000 7600 2000 7500
+	1950 7600 1950 7500
 Wire Wire Line
-	1750 7200 1750 6850
+	1700 7200 1700 6850
 Wire Wire Line
-	1750 6850 2600 6850
+	1700 6850 2600 6850
 $Comp
 L power:GND #PWR079
 U 1 1 647CDFA0
@@ -3446,36 +3450,36 @@ Wire Wire Line
 $Comp
 L Device:C C18
 U 1 1 647CE00C
-P 1500 6700
-F 0 "C18" H 1615 6746 50  0000 L CNN
-F 1 "100n 16V X5R" H 1615 6655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1538 6550 50  0001 C CNN
-F 3 "~" H 1500 6700 50  0001 C CNN
-	1    1500 6700
+P 1450 6700
+F 0 "C18" H 1565 6746 50  0000 L CNN
+F 1 "100n 16V X5R" H 1565 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1488 6550 50  0001 C CNN
+F 3 "~" H 1450 6700 50  0001 C CNN
+	1    1450 6700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR075
 U 1 1 647CE013
-P 1500 6950
-F 0 "#PWR075" H 1500 6700 50  0001 C CNN
-F 1 "GND" H 1505 6777 50  0000 C CNN
-F 2 "" H 1500 6950 50  0001 C CNN
-F 3 "" H 1500 6950 50  0001 C CNN
-	1    1500 6950
+P 1450 6950
+F 0 "#PWR075" H 1450 6700 50  0001 C CNN
+F 1 "GND" H 1455 6777 50  0000 C CNN
+F 2 "" H 1450 6950 50  0001 C CNN
+F 3 "" H 1450 6950 50  0001 C CNN
+	1    1450 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6950 1500 6850
-Text GLabel 1400 6450 0    35   Input ~ 0
+	1450 6950 1450 6850
+Text GLabel 1350 6450 0    35   Input ~ 0
 PROG_~RST
 Wire Wire Line
-	1400 6450 1500 6450
+	1350 6450 1450 6450
 Wire Wire Line
-	1500 6450 1500 6550
+	1450 6450 1450 6550
 Wire Wire Line
-	2600 6450 1500 6450
-Connection ~ 1500 6450
+	2600 6450 1450 6450
+Connection ~ 1450 6450
 $Comp
 L Device:R R7
 U 1 1 647CE01F
@@ -3608,7 +3612,7 @@ F 3 "~" H 1850 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 8150 2600 8150
+	2000 8150 2100 8150
 Wire Wire Line
 	2000 8450 2100 8450
 Wire Wire Line
@@ -3763,7 +3767,7 @@ U 1 1 6483C79E
 P 6500 8850
 F 0 "U3" H 2850 11650 50  0000 C CNN
 F 1 "STM32F407VGTx" H 9900 11650 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 6500 8850 50  0001 C CNN
+F 2 "Sentisa-Microcontrollers:ST_S-LQFP-100_14x14mm_P0.5mm" H 6500 8850 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 6500 8850 50  0001 C CNN
 	1    6500 8850
 	1    0    0    -1  
@@ -4552,8 +4556,6 @@ Wire Notes Line
 	2150 15350 2150 14750
 Text Notes 5300 25650 0    150  ~ 30
 ?
-Text Notes 7850 25600 0    150  ~ 30
-?
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 5CC4D99B
@@ -4582,8 +4584,8 @@ $Comp
 L Amplifier_Operational:LM358 U13
 U 1 1 5CCCA1AE
 P 6550 18200
-F 0 "U13" H 6550 18567 50  0000 C CNN
-F 1 "TBD" H 6550 18476 50  0000 C CNN
+F 0 "U13" H 6750 18350 50  0000 C CNN
+F 1 "TBD" H 6800 18050 50  0000 C CNN
 F 2 "" H 6550 18200 50  0001 C CNN
 F 3 "" H 6550 18200 50  0001 C CNN
 F 4 "TBD" H 6550 18200 50  0001 C CNN "MFR"
@@ -4713,23 +4715,23 @@ $EndComp
 $Comp
 L Connector:TestPoint TP15
 U 1 1 5C4D0D9A
-P 16000 5150
-F 0 "TP15" H 16000 5475 50  0000 C CNN
-F 1 "TP" H 16000 5384 50  0000 C CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 16200 5150 50  0001 C CNN
-F 3 "~" H 16200 5150 50  0001 C CNN
-	1    16000 5150
+P 17500 4350
+F 0 "TP15" H 17500 4675 50  0000 C CNN
+F 1 "TP" H 17500 4584 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 17700 4350 50  0001 C CNN
+F 3 "~" H 17700 4350 50  0001 C CNN
+	1    17500 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP17
 U 1 1 5C543E6B
-P 16000 6800
-F 0 "TP17" H 16000 7125 50  0000 C CNN
-F 1 "TP" H 16000 7034 50  0000 C CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 16200 6800 50  0001 C CNN
-F 3 "~" H 16200 6800 50  0001 C CNN
-	1    16000 6800
+P 17300 4350
+F 0 "TP17" H 17300 4675 50  0000 C CNN
+F 1 "TP" H 17300 4584 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 17500 4350 50  0001 C CNN
+F 3 "~" H 17500 4350 50  0001 C CNN
+	1    17300 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4737,46 +4739,46 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP23
 U 1 1 5C70C3BD
-P 13700 9600
-F 0 "TP23" H 13642 9627 50  0000 R CNN
-F 1 "TP" H 13642 9718 50  0000 R CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 13900 9600 50  0001 C CNN
-F 3 "~" H 13900 9600 50  0001 C CNN
-	1    13700 9600
-	-1   0    0    1   
+P 14150 11950
+F 0 "TP23" V 14196 12138 50  0000 L CNN
+F 1 "TP" V 14105 12138 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 14350 11950 50  0001 C CNN
+F 3 "~" H 14350 11950 50  0001 C CNN
+	1    14150 11950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP24
 U 1 1 5C77E411
-P 16050 9650
-F 0 "TP24" H 15992 9677 50  0000 R CNN
-F 1 "TP" H 15992 9768 50  0000 R CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 16250 9650 50  0001 C CNN
-F 3 "~" H 16250 9650 50  0001 C CNN
-	1    16050 9650
-	-1   0    0    1   
+P 14150 12350
+F 0 "TP24" V 14196 12538 50  0000 L CNN
+F 1 "TP" V 14105 12538 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 14350 12350 50  0001 C CNN
+F 3 "~" H 14350 12350 50  0001 C CNN
+	1    14150 12350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP26
 U 1 1 5C77E604
-P 16000 11250
-F 0 "TP26" H 15942 11277 50  0000 R CNN
-F 1 "TP" H 15942 11368 50  0000 R CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 16200 11250 50  0001 C CNN
-F 3 "~" H 16200 11250 50  0001 C CNN
-	1    16000 11250
-	-1   0    0    1   
+P 14150 12550
+F 0 "TP26" V 14196 12738 50  0000 L CNN
+F 1 "TP" V 14105 12738 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 14350 12550 50  0001 C CNN
+F 3 "~" H 14350 12550 50  0001 C CNN
+	1    14150 12550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP25
 U 1 1 5C77E88C
-P 13650 11200
-F 0 "TP25" H 13592 11227 50  0000 R CNN
-F 1 "TP" H 13592 11318 50  0000 R CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 13850 11200 50  0001 C CNN
-F 3 "~" H 13850 11200 50  0001 C CNN
-	1    13650 11200
-	-1   0    0    1   
+P 14150 12150
+F 0 "TP25" V 14196 12338 50  0000 L CNN
+F 1 "TP" V 14105 12338 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 14350 12150 50  0001 C CNN
+F 3 "~" H 14350 12150 50  0001 C CNN
+	1    14150 12150
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP21
@@ -4803,80 +4805,78 @@ $EndComp
 $Comp
 L Connector:TestPoint TP44
 U 1 1 5C7F36C5
-P 50 15450
-F 0 "TP44" H 108 15570 50  0000 L CNN
-F 1 "TP" H 108 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 250 15450 50  0001 C CNN
-F 3 "~" H 250 15450 50  0001 C CNN
-	1    50   15450
+P 50 15650
+F 0 "TP44" H 108 15770 50  0000 L CNN
+F 1 "TP" H 108 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 250 15650 50  0001 C CNN
+F 3 "~" H 250 15650 50  0001 C CNN
+	1    50   15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP42
 U 1 1 5C7F4027
-P -350 15450
-F 0 "TP42" H -292 15570 50  0000 L CNN
-F 1 "TP" H -292 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -150 15450 50  0001 C CNN
-F 3 "~" H -150 15450 50  0001 C CNN
-	1    -350 15450
+P -550 15650
+F 0 "TP42" H -492 15770 50  0000 L CNN
+F 1 "TP" H -492 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -350 15650 50  0001 C CNN
+F 3 "~" H -350 15650 50  0001 C CNN
+	1    -550 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP43
 U 1 1 5C7F4153
-P -150 15450
-F 0 "TP43" H -92 15570 50  0000 L CNN
-F 1 "TP" H -92 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 50  15450 50  0001 C CNN
-F 3 "~" H 50  15450 50  0001 C CNN
-	1    -150 15450
+P -250 15650
+F 0 "TP43" H -192 15770 50  0000 L CNN
+F 1 "TP" H -192 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -50 15650 50  0001 C CNN
+F 3 "~" H -50 15650 50  0001 C CNN
+	1    -250 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP41
 U 1 1 5C7F42A3
-P -550 15450
-F 0 "TP41" H -492 15570 50  0000 L CNN
-F 1 "TP" H -492 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -350 15450 50  0001 C CNN
-F 3 "~" H -350 15450 50  0001 C CNN
-	1    -550 15450
+P -850 15650
+F 0 "TP41" H -792 15770 50  0000 L CNN
+F 1 "TP" H -792 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -650 15650 50  0001 C CNN
+F 3 "~" H -650 15650 50  0001 C CNN
+	1    -850 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP34
 U 1 1 5C9BD685
 P 4300 15400
-F 0 "TP34" H 4358 15520 50  0000 L CNN
-F 1 "TP" H 4358 15429 50  0000 L CNN
+F 0 "TP34" V 4105 15473 50  0000 C CNN
+F 1 "TP" V 4196 15473 50  0000 C CNN
 F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 4500 15400 50  0001 C CNN
 F 3 "~" H 4500 15400 50  0001 C CNN
 	1    4300 15400
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP45
 U 1 1 5C9BD987
 P 4300 15500
-F 0 "TP45" H 4242 15527 50  0000 R CNN
-F 1 "TP" H 4242 15618 50  0000 R CNN
+F 0 "TP45" V 4254 15688 50  0000 L CNN
+F 1 "TP" V 4345 15688 50  0000 L CNN
 F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 4500 15500 50  0001 C CNN
 F 3 "~" H 4500 15500 50  0001 C CNN
 	1    4300 15500
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
-NoConn ~ 4200 15400
-NoConn ~ 4200 15500
 $Comp
 L Connector:TestPoint TP40
 U 1 1 5CB13035
-P -800 15450
-F 0 "TP40" H -742 15570 50  0000 L CNN
-F 1 "TP" H -742 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -600 15450 50  0001 C CNN
-F 3 "~" H -600 15450 50  0001 C CNN
-	1    -800 15450
+P -1150 15650
+F 0 "TP40" H -1092 15770 50  0000 L CNN
+F 1 "TP" H -1092 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -950 15650 50  0001 C CNN
+F 3 "~" H -950 15650 50  0001 C CNN
+	1    -1150 15650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4893,77 +4893,77 @@ $EndComp
 $Comp
 L Connector:TestPoint TP39
 U 1 1 5CB84B1D
-P -1100 15450
-F 0 "TP39" H -1042 15570 50  0000 L CNN
-F 1 "TP" H -1042 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -900 15450 50  0001 C CNN
-F 3 "~" H -900 15450 50  0001 C CNN
-	1    -1100 15450
+P -1450 15650
+F 0 "TP39" H -1392 15770 50  0000 L CNN
+F 1 "TP" H -1392 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -1250 15650 50  0001 C CNN
+F 3 "~" H -1250 15650 50  0001 C CNN
+	1    -1450 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP38
 U 1 1 5CBF61A4
-P -1400 15450
-F 0 "TP38" H -1342 15570 50  0000 L CNN
-F 1 "TP" H -1342 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -1200 15450 50  0001 C CNN
-F 3 "~" H -1200 15450 50  0001 C CNN
-	1    -1400 15450
+P -1750 15650
+F 0 "TP38" H -1692 15770 50  0000 L CNN
+F 1 "TP" H -1692 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -1550 15650 50  0001 C CNN
+F 3 "~" H -1550 15650 50  0001 C CNN
+	1    -1750 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP37
 U 1 1 5CBF62E8
-P -1650 15450
-F 0 "TP37" H -1592 15570 50  0000 L CNN
-F 1 "TP" H -1592 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -1450 15450 50  0001 C CNN
-F 3 "~" H -1450 15450 50  0001 C CNN
-	1    -1650 15450
+P -2050 15650
+F 0 "TP37" H -1992 15770 50  0000 L CNN
+F 1 "TP" H -1992 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -1850 15650 50  0001 C CNN
+F 3 "~" H -1850 15650 50  0001 C CNN
+	1    -2050 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP36
 U 1 1 5CBF6420
-P -1950 15450
-F 0 "TP36" H -1892 15570 50  0000 L CNN
-F 1 "TP" H -1892 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -1750 15450 50  0001 C CNN
-F 3 "~" H -1750 15450 50  0001 C CNN
-	1    -1950 15450
+P -2350 15650
+F 0 "TP36" H -2292 15770 50  0000 L CNN
+F 1 "TP" H -2292 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -2150 15650 50  0001 C CNN
+F 3 "~" H -2150 15650 50  0001 C CNN
+	1    -2350 15650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP35
 U 1 1 5CBF6566
-P -2200 15450
-F 0 "TP35" H -2142 15570 50  0000 L CNN
-F 1 "TP" H -2142 15479 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -2000 15450 50  0001 C CNN
-F 3 "~" H -2000 15450 50  0001 C CNN
-	1    -2200 15450
+P -2650 15650
+F 0 "TP35" H -2592 15770 50  0000 L CNN
+F 1 "TP" H -2592 15679 50  0000 L CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H -2450 15650 50  0001 C CNN
+F 3 "~" H -2450 15650 50  0001 C CNN
+	1    -2650 15650
 	1    0    0    -1  
 $EndComp
-Text GLabel -2200 15550 3    50   Input ~ 0
+Text GLabel -2650 15750 3    50   Input ~ 0
 COIL_T+
-Text GLabel -1950 15550 3    50   Input ~ 0
+Text GLabel -2350 15750 3    50   Input ~ 0
 COIL_T-
-Text GLabel -1650 15550 3    50   Input ~ 0
+Text GLabel -2050 15750 3    50   Input ~ 0
 COIL_F-
-Text GLabel -1400 15550 3    50   Input ~ 0
+Text GLabel -1750 15750 3    50   Input ~ 0
 COIL_F+
-Text GLabel -1100 15550 3    50   Input ~ 0
+Text GLabel -1450 15750 3    50   Input ~ 0
 SENS_PD
-Text GLabel -800 15550 3    50   Input ~ 0
+Text GLabel -1150 15750 3    50   Input ~ 0
 SENS_LD
-Text GLabel 50   15550 3    50   Input ~ 0
+Text GLabel 50   15750 3    50   Input ~ 0
 SENS_D
-Text GLabel -350 15550 3    50   Input ~ 0
+Text GLabel -550 15750 3    50   Input ~ 0
 SENS_B
-Text GLabel -550 15550 3    50   Input ~ 0
+Text GLabel -850 15750 3    50   Input ~ 0
 SENS_A
-Text GLabel -150 15550 3    50   Input ~ 0
+Text GLabel -250 15750 3    50   Input ~ 0
 SENS_C
 Text GLabel 8700 12950 0    50   Input ~ 0
 DAC_~CLR
@@ -5207,17 +5207,6 @@ F 3 "~" H 21800 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
-U 1 1 5D15EB7F
-P 21600 7400
-F 0 "TP20" V 21554 7588 50  0000 L CNN
-F 1 "TP" V 21645 7588 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 21800 7400 50  0001 C CNN
-F 3 "~" H 21800 7400 50  0001 C CNN
-	1    21600 7400
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:TestPoint TP9
 U 1 1 5D15F103
 P 20000 4300
@@ -5278,8 +5267,8 @@ $Comp
 L Connector:TestPoint TP61
 U 1 1 5D248F23
 P 5050 21900
-F 0 "TP61" H 5108 22020 50  0000 L CNN
-F 1 "TP" H 5108 21929 50  0000 L CNN
+F 0 "TP61" H 5050 22225 50  0000 C CNN
+F 1 "TP" H 5050 22134 50  0000 C CNN
 F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 5250 21900 50  0001 C CNN
 F 3 "~" H 5250 21900 50  0001 C CNN
 	1    5050 21900
@@ -5289,8 +5278,8 @@ $Comp
 L Connector:TestPoint TP60
 U 1 1 5D249773
 P 5050 20500
-F 0 "TP60" H 5108 20620 50  0000 L CNN
-F 1 "TP" H 5108 20529 50  0000 L CNN
+F 0 "TP60" H 5050 20825 50  0000 C CNN
+F 1 "TP" H 5050 20734 50  0000 C CNN
 F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 5250 20500 50  0001 C CNN
 F 3 "~" H 5250 20500 50  0001 C CNN
 	1    5050 20500
@@ -5311,8 +5300,8 @@ $Comp
 L Connector:TestPoint TP56
 U 1 1 5D2BFD3B
 P 5050 19100
-F 0 "TP56" H 5108 19220 50  0000 L CNN
-F 1 "TP" H 5108 19129 50  0000 L CNN
+F 0 "TP56" H 5050 19425 50  0000 C CNN
+F 1 "TP" H 5050 19334 50  0000 C CNN
 F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 5250 19100 50  0001 C CNN
 F 3 "~" H 5250 19100 50  0001 C CNN
 	1    5050 19100
@@ -5322,8 +5311,8 @@ $Comp
 L Connector:TestPoint TP52
 U 1 1 5D2C03C8
 P 5050 17700
-F 0 "TP52" H 5108 17820 50  0000 L CNN
-F 1 "TP" H 5108 17729 50  0000 L CNN
+F 0 "TP52" H 5050 18025 50  0000 C CNN
+F 1 "TP" H 5050 17934 50  0000 C CNN
 F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 5250 17700 50  0001 C CNN
 F 3 "~" H 5250 17700 50  0001 C CNN
 	1    5050 17700
@@ -5420,12 +5409,12 @@ $EndComp
 $Comp
 L Connector:TestPoint TP74
 U 1 1 5D2CB2A9
-P 3700 25550
-F 0 "TP74" H 3758 25670 50  0000 L CNN
-F 1 "TP" H 3758 25579 50  0000 L CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 3900 25550 50  0001 C CNN
-F 3 "~" H 3900 25550 50  0001 C CNN
-	1    3700 25550
+P 3750 25550
+F 0 "TP74" H 3750 25875 50  0000 C CNN
+F 1 "TP" H 3750 25784 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 3950 25550 50  0001 C CNN
+F 3 "~" H 3950 25550 50  0001 C CNN
+	1    3750 25550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5550,4 +5539,200 @@ F 3 "~" H 8000 28150 50  0001 C CNN
 	1    7800 28150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4550 25650 4550 25750
+Wire Wire Line
+	3750 25550 3750 25650
+Connection ~ 3750 25650
+Wire Wire Line
+	3750 25650 3650 25650
+Wire Wire Line
+	3750 26650 3750 26550
+Wire Wire Line
+	1950 26050 2050 26050
+Connection ~ 2050 26050
+Wire Wire Line
+	2050 26050 2050 25850
+Wire Wire Line
+	1300 25550 1300 25650
+Connection ~ 1300 25650
+Wire Wire Line
+	7150 25650 7150 25750
+Wire Wire Line
+	4850 24000 4950 24000
+Wire Wire Line
+	4950 24200 4850 24200
+Wire Wire Line
+	4850 24400 4950 24400
+Wire Wire Line
+	2850 25650 2850 25750
+Connection ~ 2850 25750
+Wire Wire Line
+	5050 21900 5050 22000
+Connection ~ 5050 22000
+Wire Wire Line
+	5050 22000 5350 22000
+Wire Wire Line
+	5050 20500 5050 20600
+Connection ~ 5050 20600
+Wire Wire Line
+	5050 20600 5250 20600
+Wire Wire Line
+	5050 19100 5050 19200
+Connection ~ 5050 19200
+Wire Wire Line
+	5050 19200 5150 19200
+Wire Wire Line
+	5050 17700 5050 17800
+Connection ~ 5050 17800
+Wire Wire Line
+	5450 19200 5350 19200
+Connection ~ 5350 19200
+Wire Wire Line
+	5350 19200 5350 18100
+Wire Wire Line
+	6250 17800 6150 17800
+Connection ~ 6150 17800
+Wire Wire Line
+	6950 17500 6950 17600
+Connection ~ 6950 17600
+Wire Wire Line
+	7700 18050 7700 18200
+Wire Wire Line
+	6050 16900 6050 17000
+Connection ~ 6050 17000
+Wire Wire Line
+	9000 18200 9000 18300
+Wire Wire Line
+	10050 19350 9950 19350
+Wire Wire Line
+	10050 19550 9950 19550
+Wire Wire Line
+	4200 15400 4300 15400
+Wire Wire Line
+	4300 15500 4200 15500
+Wire Wire Line
+	1000 14600 1000 14700
+Connection ~ 1000 14700
+Wire Wire Line
+	-2650 15750 -2650 15650
+Wire Wire Line
+	-2350 15750 -2350 15650
+Wire Wire Line
+	-2050 15750 -2050 15650
+Wire Wire Line
+	-1750 15750 -1750 15650
+Wire Wire Line
+	-1450 15750 -1450 15650
+Wire Wire Line
+	-1150 15750 -1150 15650
+Wire Wire Line
+	-850 15650 -850 15750
+Wire Wire Line
+	-550 15750 -550 15650
+Wire Wire Line
+	-250 15750 -250 15650
+Wire Wire Line
+	50   15750 50   15650
+Wire Wire Line
+	8700 13950 8800 13950
+Wire Wire Line
+	8700 13750 8800 13750
+Wire Wire Line
+	8700 13550 8800 13550
+Wire Wire Line
+	8700 13350 8800 13350
+Wire Wire Line
+	8700 13150 8800 13150
+Wire Wire Line
+	8700 12950 8800 12950
+Wire Wire Line
+	2100 8050 2100 8150
+Connection ~ 2100 8150
+Wire Wire Line
+	2100 8150 2600 8150
+Wire Wire Line
+	2100 8550 2100 8450
+Connection ~ 2100 8450
+Wire Wire Line
+	1250 2600 1250 2500
+Connection ~ 1250 2500
+Wire Wire Line
+	1250 1900 1250 2000
+Connection ~ 1250 2000
+Wire Wire Line
+	7000 1650 7000 1750
+Wire Wire Line
+	7000 3050 7000 2950
+Wire Wire Line
+	9550 1300 9650 1300
+Text GLabel 14250 11950 2    40   Output ~ 0
+TEMP_SENS_OUT_1
+Text GLabel 14250 12150 2    40   Output ~ 0
+TEMP_SENS_OUT_2
+Text GLabel 14250 12350 2    40   Output ~ 0
+TEMP_SENS_OUT_3
+Text GLabel 14250 12550 2    40   Output ~ 0
+TEMP_SENS_OUT_4
+Wire Wire Line
+	14150 11950 14250 11950
+Wire Wire Line
+	14250 12150 14150 12150
+Wire Wire Line
+	14150 12350 14250 12350
+Wire Wire Line
+	14250 12550 14150 12550
+Text GLabel 17300 4450 3    40   Output ~ 0
+SWITCH_1
+Text GLabel 17500 4450 3    40   Output ~ 0
+SWITCH_2
+Wire Wire Line
+	17500 4350 17500 4450
+Wire Wire Line
+	17300 4350 17300 4450
+Wire Wire Line
+	22150 4050 22250 4050
+Wire Wire Line
+	22250 4200 22150 4200
+Wire Wire Line
+	22150 4350 22250 4350
+Wire Wire Line
+	22250 4500 22150 4500
+Wire Wire Line
+	22150 4650 22250 4650
+Wire Wire Line
+	19500 4300 19500 4700
+Connection ~ 19500 4700
+Wire Wire Line
+	19500 4700 19600 4700
+Wire Wire Line
+	20000 4300 20000 4700
+Connection ~ 20000 4700
+Wire Wire Line
+	20050 4550 20050 4900
+Connection ~ 20050 4900
+Wire Wire Line
+	20050 4900 20150 4900
+Wire Wire Line
+	20550 4550 20550 4900
+Connection ~ 20550 4900
+Wire Wire Line
+	20100 6900 20000 6900
+Connection ~ 20000 6900
+Wire Wire Line
+	20850 6800 20750 6800
+Connection ~ 20750 6800
+Wire Wire Line
+	21600 6700 21500 6700
+Connection ~ 21500 6700
+Wire Wire Line
+	15800 15500 15900 15500
+Wire Wire Line
+	15900 15650 15800 15650
+Wire Wire Line
+	15800 15800 15900 15800
+Wire Wire Line
+	15900 15950 15800 15950
+Text Notes 7850 25600 0    150  ~ 30
+?
 $EndSCHEMATC
