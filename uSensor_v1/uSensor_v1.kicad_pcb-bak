@@ -1764,7 +1764,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1A21)
-    (at 67.7 -20.5)
+    (at 369.5 -92.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D07F0BE)
@@ -1800,7 +1800,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1A32)
-    (at 67.9 -17)
+    (at 369.7 -89.1)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D5234DB)
@@ -2200,7 +2200,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1AF1)
-    (at 147.3 -3.1)
+    (at 407.8 -124.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CA5BDEF)
@@ -2236,7 +2236,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B02)
-    (at 61.1 -15.7)
+    (at 362.9 -87.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C93A9EE)
@@ -2272,7 +2272,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B13)
-    (at 152.3 -13.1)
+    (at 412.8 -134.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CC5CC36)
@@ -2308,7 +2308,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B24)
-    (at 90.7 -25.7 90)
+    (at 349.3 -140.2 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D61299C)
@@ -2344,7 +2344,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B35)
-    (at 147.5 -5.8)
+    (at 408 -126.9)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CA1BB1C)
@@ -2416,7 +2416,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B57)
-    (at 10 214.1 90)
+    (at 327.3 -140.1 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CDC2363)
@@ -2452,7 +2452,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B68)
-    (at 112 -26.8)
+    (at 370.6 -141.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D6DB4A5)
@@ -2488,7 +2488,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B79)
-    (at 92.4 -12.1)
+    (at 351 -126.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D71E3BB)
@@ -2524,7 +2524,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B8A)
-    (at 109.9 -12.8)
+    (at 368.5 -127.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D7616DC)
@@ -2560,7 +2560,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1B9B)
-    (at 98.1 -27.4)
+    (at 356.7 -141.9)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C6EFF05/5C6F020C)
@@ -2596,7 +2596,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1BAC)
-    (at 98 -22.8)
+    (at 356.6 -137.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C6EFF05/5C6F0253)
@@ -2632,7 +2632,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1BBD)
-    (at 97.9 -20.8)
+    (at 356.5 -135.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C6EFF05/5C6F0260)
@@ -2668,7 +2668,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1BCE)
-    (at 25.9 -31.8)
+    (at 457.2 -110.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C398D6C/5C4809A6)
@@ -2704,7 +2704,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1BDF)
-    (at 25.9 -27.7)
+    (at 457.2 -106.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C398D6C/5C4809BF)
@@ -2740,7 +2740,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1BF0)
-    (at 17.8 -0.7)
+    (at 449.1 -79.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C839FF6/5C4809A6)
@@ -2776,7 +2776,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C01)
-    (at 17.3 2.5)
+    (at 448.6 -76)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C839FF6/5C4809BF)
@@ -2812,7 +2812,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C12)
-    (at 116.7 -27.1)
+    (at 375.3 -141.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D09CD82/5C6F020C)
@@ -2848,7 +2848,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C23)
-    (at 117 -23)
+    (at 375.6 -137.5)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D09CD82/5C6F0253)
@@ -2884,7 +2884,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C34)
-    (at 116.6 -20.4)
+    (at 375.2 -134.9)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D09CD82/5C6F0260)
@@ -2920,7 +2920,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C45)
-    (at 96.6 -12.4)
+    (at 355.2 -126.9)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D0DF15B/5C6F020C)
@@ -2956,7 +2956,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C56)
-    (at 96.6 -8)
+    (at 355.2 -122.5)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D0DF15B/5C6F0253)
@@ -2992,7 +2992,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C67)
-    (at 96.5 -5.9)
+    (at 355.1 -120.4)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D0DF15B/5C6F0260)
@@ -3028,7 +3028,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C78)
-    (at 114.1 -12.8)
+    (at 372.7 -127.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D1213F6/5C6F020C)
@@ -3064,7 +3064,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C89)
-    (at 114.1 -8.2)
+    (at 372.7 -122.7)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D1213F6/5C6F0253)
@@ -3100,7 +3100,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1C9A)
-    (at 114 -6.2)
+    (at 372.6 -120.7)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D1213F6/5C6F0260)
@@ -3839,7 +3839,7 @@
   )
 
   (module Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3F1E53)
-    (at 61.1 -19.3)
+    (at 362.9 -91.4)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (path /5C93A5EF)
@@ -3957,7 +3957,7 @@
   )
 
   (module Sentisa-IC:SOT-363 (layer F.Cu) (tedit 5B8E45E0) (tstamp 5C3F1E93)
-    (at 35.4 -33.7)
+    (at 471.3 -113.6)
     (tags SOT-363)
     (path /5C398D6C/5C400C6B)
     (attr smd)
@@ -4001,7 +4001,7 @@
   )
 
   (module Sentisa-IC:SOT-363 (layer F.Cu) (tedit 5B8E45E0) (tstamp 5C3F1EA9)
-    (at 23.8 4.1)
+    (at 455.1 -74.4)
     (tags SOT-363)
     (path /5C839FF6/5C400C6B)
     (attr smd)
@@ -4691,7 +4691,7 @@
   )
 
   (module Sentisa-Resistors:R_0603 (layer F.Cu) (tedit 5C2F6B9C) (tstamp 5C3F1FEC)
-    (at 61.1 -12.6)
+    (at 362.9 -84.7)
     (tags "resistor 0603")
     (path /5CE81423)
     (attr smd)
@@ -4942,7 +4942,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2063)
-    (at 138.5 -21.3)
+    (at 399 -142.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CD1A258)
@@ -4978,7 +4978,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2074)
-    (at 133.5 -18)
+    (at 394 -139.1)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C9B5CE8)
@@ -5014,7 +5014,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2085)
-    (at 133.4 -15.5)
+    (at 393.9 -136.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C9B5BF0)
@@ -5050,7 +5050,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2096)
-    (at 147.5 -13.4)
+    (at 408 -134.5)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CC1DD5F)
@@ -5086,7 +5086,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F20A7)
-    (at 133.5 -12.9)
+    (at 394 -134)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C9B59B0)
@@ -5122,7 +5122,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F20B8)
-    (at 150.3 -10.2)
+    (at 410.8 -131.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CBDEC20)
@@ -5158,7 +5158,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F20C9)
-    (at 133.1 -10.3)
+    (at 393.6 -131.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C9B5AF6)
@@ -5194,7 +5194,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F20DA)
-    (at 138.6 -8.1)
+    (at 399.1 -129.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CAE6CCD)
@@ -5230,7 +5230,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F20EB)
-    (at 98 -25.3)
+    (at 356.6 -139.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C6EFF05/5C6F0228)
@@ -5266,7 +5266,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F20FC)
-    (at 93.6 -27.4)
+    (at 352.2 -141.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C6EFF05/5C6F0221)
@@ -5302,7 +5302,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F210D)
-    (at 93.8 -25.3)
+    (at 352.4 -139.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C6EFF05/5C6F0205)
@@ -5338,7 +5338,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F211E)
-    (at 93.5 -22.8)
+    (at 352.1 -137.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C6EFF05/5C6F0213)
@@ -5374,7 +5374,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F212F)
-    (at 35.4 -35.9)
+    (at 471.3 -115.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C480A1D)
@@ -5410,7 +5410,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2140)
-    (at 13.6 -31.5)
+    (at 444.9 -110)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C4809ED)
@@ -5446,7 +5446,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2151)
-    (at 20.5 -31.4)
+    (at 451.8 -109.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C4809E6)
@@ -5482,7 +5482,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2162)
-    (at 31.9 -33.4 270)
+    (at 467.8 -113.3 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C480A0B)
@@ -5518,7 +5518,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2173)
-    (at 20.6 -26.7)
+    (at 451.9 -105.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C4809DE)
@@ -5554,7 +5554,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2184)
-    (at 31.5 -22.4)
+    (at 462.8 -100.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C480A49)
@@ -5590,7 +5590,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2195)
-    (at 35.4 -31.5)
+    (at 471.3 -111.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C398D6C/5C480A25)
@@ -5626,7 +5626,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F21A6)
-    (at 23.1 -2.3)
+    (at 454.4 -80.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C480A1D)
@@ -5662,7 +5662,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F21B7)
-    (at 10 -4.6)
+    (at 441.3 -83.1)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C4809ED)
@@ -5698,7 +5698,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F21C8)
-    (at 17.4 -5)
+    (at 448.7 -83.5)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C4809E6)
@@ -5734,7 +5734,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F21D9)
-    (at 23.6 -5.6)
+    (at 454.9 -84.1)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C480A0B)
@@ -5770,7 +5770,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F21EA)
-    (at 17.6 -2.9)
+    (at 448.9 -81.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C4809DE)
@@ -5806,7 +5806,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F21FB)
-    (at 28.3 -1.1)
+    (at 459.6 -79.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C480A49)
@@ -5842,7 +5842,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F220C)
-    (at 23.2 0.6)
+    (at 454.5 -77.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C839FF6/5C480A25)
@@ -5878,7 +5878,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F221D)
-    (at 116.9 -25.2)
+    (at 375.5 -139.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D09CD82/5C6F0228)
@@ -5914,7 +5914,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F222E)
-    (at 112.1 -24.8)
+    (at 370.7 -139.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D09CD82/5C6F0221)
@@ -5950,7 +5950,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F223F)
-    (at 111.9 -22.4)
+    (at 370.5 -136.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D09CD82/5C6F0205)
@@ -5986,7 +5986,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2250)
-    (at 111.8 -20.4)
+    (at 370.4 -134.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D09CD82/5C6F0213)
@@ -6022,7 +6022,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2261)
-    (at 96.5 -9.9)
+    (at 355.1 -124.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D0DF15B/5C6F0228)
@@ -6058,7 +6058,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2272)
-    (at 92.3 -10.2)
+    (at 350.9 -124.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D0DF15B/5C6F0221)
@@ -6094,7 +6094,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2283)
-    (at 92.3 -8.1)
+    (at 350.9 -122.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D0DF15B/5C6F0205)
@@ -6130,7 +6130,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F2294)
-    (at 92.2 -6.2)
+    (at 350.8 -120.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D0DF15B/5C6F0213)
@@ -6166,7 +6166,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F22A5)
-    (at 114 -10.3)
+    (at 372.6 -124.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D1213F6/5C6F0228)
@@ -6202,7 +6202,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F22B6)
-    (at 110.1 -10.9)
+    (at 368.7 -125.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D1213F6/5C6F0221)
@@ -6238,7 +6238,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F22C7)
-    (at 110.1 -8.9)
+    (at 368.7 -123.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D1213F6/5C6F0205)
@@ -6274,7 +6274,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F22D8)
-    (at 110.1 -6.4)
+    (at 368.7 -120.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D1213F6/5C6F0213)
@@ -6310,7 +6310,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F22E9)
-    (at 153.9 -18.4)
+    (at 414.4 -139.5)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C5AB4CB)
@@ -6346,7 +6346,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F22FA)
-    (at 154.4 -21.1)
+    (at 414.9 -142.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C5AB220)
@@ -6382,7 +6382,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3F230B)
-    (at 149.7 -21.1)
+    (at 410.2 -142.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5DB7944B)
@@ -6677,7 +6677,7 @@
   )
 
   (module Sentisa-Resistors:Potentiometer_SR_Passives_T910W_Vertical (layer F.Cu) (tedit 5C35E8B7) (tstamp 5C3F23A1)
-    (at 153.2 -25)
+    (at 413.7 -146.1)
     (descr https://www.tme.eu/pl/Document/46e9ecf29426285f0ed14cb1dbb4a9ca/SR_Passives-T910.pdf)
     (tags "Potentiometer vertical SR Passives T910W")
     (path /5C5A9E6C)
@@ -6720,7 +6720,7 @@
   )
 
   (module Sentisa-Resistors:Potentiometer_SR_Passives_T910W_Vertical (layer F.Cu) (tedit 5C35E8B7) (tstamp 5C3F23B9)
-    (at 12.9 -27.3)
+    (at 444.2 -105.8)
     (descr https://www.tme.eu/pl/Document/46e9ecf29426285f0ed14cb1dbb4a9ca/SR_Passives-T910.pdf)
     (tags "Potentiometer vertical SR Passives T910W")
     (path /5C398D6C/5CE44E8E)
@@ -6763,7 +6763,7 @@
   )
 
   (module Sentisa-Resistors:Potentiometer_SR_Passives_T910W_Vertical (layer F.Cu) (tedit 5C35E8B7) (tstamp 5C3F23D1)
-    (at 10.5 -0.3)
+    (at 441.8 -78.8)
     (descr https://www.tme.eu/pl/Document/46e9ecf29426285f0ed14cb1dbb4a9ca/SR_Passives-T910.pdf)
     (tags "Potentiometer vertical SR Passives T910W")
     (path /5C839FF6/5CE44E8E)
@@ -6908,7 +6908,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2417)
-    (at 174.175001 -17.034999)
+    (at 356.175001 -67.834999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C4CFC22)
     (fp_text reference TP1 (at 0 -1.5) (layer F.SilkS)
@@ -6927,7 +6927,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F241F)
-    (at 164.8 -19.5)
+    (at 323 -133)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C45A038)
     (fp_text reference TP2 (at 0 -1.5) (layer F.SilkS)
@@ -6984,7 +6984,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2437)
-    (at 186.675001 -7.284999)
+    (at 368.675001 -58.084999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C45AC98)
     (fp_text reference TP5 (at 0 -1.5) (layer F.SilkS)
@@ -7003,7 +7003,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F243F)
-    (at 178.175001 -8.774999)
+    (at 360.175001 -59.574999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15B56F)
     (fp_text reference TP6 (at 0 -1.5) (layer F.SilkS)
@@ -7022,7 +7022,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2447)
-    (at 163.8 -9)
+    (at 345.8 -59.8)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15CB8B)
     (fp_text reference TP7 (at 0 -1.5) (layer F.SilkS)
@@ -7041,7 +7041,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F244F)
-    (at 172.575001 -14.634999)
+    (at 354.575001 -65.434999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D16035F)
     (fp_text reference TP8 (at 0 -1.5) (layer F.SilkS)
@@ -7060,7 +7060,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2457)
-    (at 167.635001 -9.614999)
+    (at 349.635001 -60.414999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15F103)
     (fp_text reference TP9 (at 0 -1.5) (layer F.SilkS)
@@ -7079,7 +7079,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F245F)
-    (at 166.085001 -8.064999)
+    (at 348.085001 -58.864999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15CCE3)
     (fp_text reference TP10 (at 0 -1.5) (layer F.SilkS)
@@ -7098,7 +7098,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2467)
-    (at 173.275001 -3.804999)
+    (at 355.275001 -54.604999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15CE3D)
     (fp_text reference TP11 (at 0 -1.5) (layer F.SilkS)
@@ -7117,7 +7117,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F246F)
-    (at 181.975001 -2.514999)
+    (at 363.975001 -53.314999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D1604F9)
     (fp_text reference TP12 (at 0 -1.5) (layer F.SilkS)
@@ -7136,7 +7136,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2477)
-    (at 179.175001 -20.054999)
+    (at 361.175001 -70.854999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D1601DF)
     (fp_text reference TP13 (at 0 -1.5) (layer F.SilkS)
@@ -7155,7 +7155,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F247F)
-    (at 170.985001 -12.634999)
+    (at 352.985001 -63.434999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15D0E3)
     (fp_text reference TP14 (at 0 -1.5) (layer F.SilkS)
@@ -7174,7 +7174,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2487)
-    (at 169.435001 -11.084999)
+    (at 351.435001 -61.884999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C4D0D9A)
     (fp_text reference TP15 (at 0 -1.5) (layer F.SilkS)
@@ -7193,7 +7193,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F248F)
-    (at 175.725001 -17.034999)
+    (at 357.725001 -67.834999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15E9FB)
     (fp_text reference TP16 (at 0 -1.5) (layer F.SilkS)
@@ -7212,7 +7212,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2497)
-    (at 174.125001 -15.484999)
+    (at 356.125001 -66.284999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C543E6B)
     (fp_text reference TP17 (at 0 -1.5) (layer F.SilkS)
@@ -7231,7 +7231,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F249F)
-    (at 190.025001 -9.994999)
+    (at 372.025001 -60.794999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15E87D)
     (fp_text reference TP18 (at 0 -1.5) (layer F.SilkS)
@@ -7250,7 +7250,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24A7)
-    (at 186.175001 -5.534999)
+    (at 368.175001 -56.334999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D15D43D)
     (fp_text reference TP19 (at 0 -1.5) (layer F.SilkS)
@@ -7269,7 +7269,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24AF)
-    (at 177.275001 -6.824999)
+    (at 359.275001 -57.624999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D51604C)
     (fp_text reference TP20 (at 0 -1.5) (layer F.SilkS)
@@ -7326,7 +7326,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24C7)
-    (at 181.975001 -22.964999)
+    (at 363.975001 -73.764999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C70C3BD)
     (fp_text reference TP23 (at 0 -1.5) (layer F.SilkS)
@@ -7345,7 +7345,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24CF)
-    (at 169.435001 -12.634999)
+    (at 351.435001 -63.434999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C77E411)
     (fp_text reference TP24 (at 0 -1.5) (layer F.SilkS)
@@ -7364,7 +7364,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24D7)
-    (at 173.275001 -2.254999)
+    (at 355.275001 -53.054999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C77E88C)
     (fp_text reference TP25 (at 0 -1.5) (layer F.SilkS)
@@ -7383,7 +7383,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24DF)
-    (at 179.725001 -8.774999)
+    (at 361.725001 -59.574999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C77E604)
     (fp_text reference TP26 (at 0 -1.5) (layer F.SilkS)
@@ -7402,7 +7402,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24E7)
-    (at 188.225001 -7.284999)
+    (at 370.225001 -58.084999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF894C0)
     (fp_text reference TP27 (at 0 -1.5) (layer F.SilkS)
@@ -7421,7 +7421,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24EF)
-    (at 163.625001 -3.044999)
+    (at 345.625001 -53.844999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF89D34)
     (fp_text reference TP28 (at 0 -1.5) (layer F.SilkS)
@@ -7440,7 +7440,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24F7)
-    (at 177.625001 -18.504999)
+    (at 359.625001 -69.304999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF89E78)
     (fp_text reference TP29 (at 0 -1.5) (layer F.SilkS)
@@ -7459,7 +7459,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24FF)
-    (at 183.675001 -12.544999)
+    (at 365.675001 -63.344999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF89FBE)
     (fp_text reference TP30 (at 0 -1.5) (layer F.SilkS)
@@ -7478,7 +7478,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2507)
-    (at 163.625001 -4.594999)
+    (at 345.625001 -55.394999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF8A106)
     (fp_text reference TP31 (at 0 -1.5) (layer F.SilkS)
@@ -7497,7 +7497,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F250F)
-    (at 172.575001 -13.084999)
+    (at 354.575001 -63.884999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF8A250)
     (fp_text reference TP32 (at 0 -1.5) (layer F.SilkS)
@@ -7516,7 +7516,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2517)
-    (at 57.2 -13.9)
+    (at 359 -86)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CB132D5)
     (fp_text reference TP33 (at 0 -1.5) (layer F.SilkS)
@@ -7535,7 +7535,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F251F)
-    (at 183.675001 -14.094999)
+    (at 365.675001 -64.894999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C9BD685)
     (fp_text reference TP34 (at 0 -1.5) (layer F.SilkS)
@@ -7554,7 +7554,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2527)
-    (at 18.7 -8.5)
+    (at 450 -87)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CBF6566)
     (fp_text reference TP35 (at 0 -1.5) (layer F.SilkS)
@@ -7573,7 +7573,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F252F)
-    (at 5.7 -6.5)
+    (at 437 -85)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CBF6420)
     (fp_text reference TP36 (at 0 -1.5) (layer F.SilkS)
@@ -7592,7 +7592,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2537)
-    (at 7.7 -35.5)
+    (at 439 -114)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CBF62E8)
     (fp_text reference TP37 (at 0 -1.5) (layer F.SilkS)
@@ -7611,7 +7611,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F253F)
-    (at 22.7 -36.5)
+    (at 454 -115)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CBF61A4)
     (fp_text reference TP38 (at 0 -1.5) (layer F.SilkS)
@@ -7668,7 +7668,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2557)
-    (at 171.725001 -4.094999)
+    (at 353.725001 -54.894999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C7F42A3)
     (fp_text reference TP41 (at 0 -1.5) (layer F.SilkS)
@@ -7687,7 +7687,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F255F)
-    (at 172.575001 -16.184999)
+    (at 354.575001 -66.984999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C7F4027)
     (fp_text reference TP42 (at 0 -1.5) (layer F.SilkS)
@@ -7706,7 +7706,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C40BA44)
-    (at 171.725001 -2.544999)
+    (at 353.725001 -53.344999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C7F4153)
     (fp_text reference TP43 (at 0 -1.5) (layer F.SilkS)
@@ -7725,7 +7725,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F256F)
-    (at 182.275001 -21.414999)
+    (at 364.275001 -72.214999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C7F36C5)
     (fp_text reference TP44 (at 0 -1.5) (layer F.SilkS)
@@ -7744,7 +7744,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2577)
-    (at 166.725001 -4.964999)
+    (at 348.725001 -55.764999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C9BD987)
     (fp_text reference TP45 (at 0 -1.5) (layer F.SilkS)
@@ -7839,7 +7839,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F259F)
-    (at 170.985001 -11.084999)
+    (at 352.985001 -61.884999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2C0B18)
     (fp_text reference TP50 (at 0 -1.5) (layer F.SilkS)
@@ -7858,7 +7858,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25A7)
-    (at 169.185001 -9.534999)
+    (at 351.185001 -60.334999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2C254B)
     (fp_text reference TP51 (at 0 -1.5) (layer F.SilkS)
@@ -7877,7 +7877,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25AF)
-    (at 167.635001 -8.064999)
+    (at 349.635001 -58.864999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2C03C8)
     (fp_text reference TP52 (at 0 -1.5) (layer F.SilkS)
@@ -7896,7 +7896,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25B7)
-    (at 178.825001 -7.224999)
+    (at 360.825001 -58.024999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2C1623)
     (fp_text reference TP53 (at 0 -1.5) (layer F.SilkS)
@@ -7915,7 +7915,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25BF)
-    (at 177.275001 -5.274999)
+    (at 359.275001 -56.074999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2C3419)
     (fp_text reference TP54 (at 0 -1.5) (layer F.SilkS)
@@ -7934,7 +7934,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25C7)
-    (at 175.675001 -15.484999)
+    (at 357.675001 -66.284999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2C35BF)
     (fp_text reference TP55 (at 0 -1.5) (layer F.SilkS)
@@ -7953,7 +7953,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25CF)
-    (at 187.725001 -5.734999)
+    (at 369.725001 -56.534999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D2BFD3B)
     (fp_text reference TP56 (at 0 -1.5) (layer F.SilkS)
@@ -7972,7 +7972,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25D7)
-    (at 186.175001 -3.984999)
+    (at 368.175001 -54.784999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D249E9B)
     (fp_text reference TP57 (at 0 -1.5) (layer F.SilkS)
@@ -7991,7 +7991,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3FB470)
-    (at 165.175001 -3.044999)
+    (at 347.175001 -53.844999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5CF91580)
     (fp_text reference TP58 (at 0 -1.5) (layer F.SilkS)
@@ -8010,7 +8010,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25E7)
-    (at 174.125001 -13.934999)
+    (at 356.125001 -64.734999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D247B3C)
     (fp_text reference TP59 (at 0 -1.5) (layer F.SilkS)
@@ -8029,7 +8029,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25EF)
-    (at 166.085001 -6.514999)
+    (at 348.085001 -57.314999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D249773)
     (fp_text reference TP60 (at 0 -1.5) (layer F.SilkS)
@@ -8048,7 +8048,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25F7)
-    (at 165.175001 -4.594999)
+    (at 347.175001 -55.394999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D248F23)
     (fp_text reference TP61 (at 0 -1.5) (layer F.SilkS)
@@ -8067,7 +8067,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F25FF)
-    (at 89.4 -29.5)
+    (at 348 -144)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C6EFF05/5D2C6388)
     (fp_text reference TP62 (at 0 -1.5) (layer F.SilkS)
@@ -8086,7 +8086,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2607)
-    (at 89.4 -23.5)
+    (at 348 -138)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C6EFF05/5D2C69C6)
     (fp_text reference TP63 (at 0 -1.5) (layer F.SilkS)
@@ -8105,7 +8105,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F260F)
-    (at 107.4 -27.5)
+    (at 366 -142)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D09CD82/5D2C6388)
     (fp_text reference TP64 (at 0 -1.5) (layer F.SilkS)
@@ -8124,7 +8124,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2617)
-    (at 107.4 -23.5)
+    (at 366 -138)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D09CD82/5D2C69C6)
     (fp_text reference TP65 (at 0 -1.5) (layer F.SilkS)
@@ -8143,7 +8143,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3FB25D)
-    (at 87.8 -10.3)
+    (at 346.4 -124.8)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D0DF15B/5D2C6388)
     (fp_text reference TP66 (at 0 -1.5) (layer F.SilkS)
@@ -8162,7 +8162,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2627)
-    (at 87.4 -7.5)
+    (at 346 -122)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D0DF15B/5D2C69C6)
     (fp_text reference TP67 (at 0 -1.5) (layer F.SilkS)
@@ -8181,7 +8181,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F262F)
-    (at 106.9 -11)
+    (at 365.5 -125.5)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D1213F6/5D2C6388)
     (fp_text reference TP68 (at 0 -1.5) (layer F.SilkS)
@@ -8200,7 +8200,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2637)
-    (at 107 -9.3)
+    (at 365.6 -123.8)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D1213F6/5D2C69C6)
     (fp_text reference TP69 (at 0 -1.5) (layer F.SilkS)
@@ -8390,7 +8390,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2687)
-    (at 33.9 -26.1)
+    (at 469.8 -106)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C398D6C/5D2DE6A8)
     (fp_text reference TP79 (at 0 -1.5) (layer F.SilkS)
@@ -8409,7 +8409,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F268F)
-    (at 16 -35.8)
+    (at 447.3 -114.3)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C398D6C/5D2DDD20)
     (fp_text reference TP80 (at 0 -1.5) (layer F.SilkS)
@@ -8428,7 +8428,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2697)
-    (at 30.7 5.5)
+    (at 462 -73)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C839FF6/5D2DE6A8)
     (fp_text reference TP81 (at 0 -1.5) (layer F.SilkS)
@@ -8447,7 +8447,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F269F)
-    (at 9.7 -8.5)
+    (at 441 -87)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5C839FF6/5D2DDD20)
     (fp_text reference TP82 (at 0 -1.5) (layer F.SilkS)
@@ -8485,7 +8485,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26AF)
-    (at 177.225001 -15.404999)
+    (at 359.225001 -66.204999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D4ACD70)
     (fp_text reference TP84 (at 0 -1.5) (layer F.SilkS)
@@ -8504,7 +8504,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26B7)
-    (at 189.775001 -6.894999)
+    (at 371.775001 -57.694999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D5AE520)
     (fp_text reference TP85 (at 0 -1.5) (layer F.SilkS)
@@ -8523,7 +8523,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26BF)
-    (at 170.735001 -9.534999)
+    (at 352.735001 -60.334999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D646F86)
     (fp_text reference TP86 (at 0 -1.5) (layer F.SilkS)
@@ -8542,7 +8542,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26C7)
-    (at 193.125001 -9.704999)
+    (at 375.125001 -60.504999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D6E00C9)
     (fp_text reference TP87 (at 0 -1.5) (layer F.SilkS)
@@ -8561,7 +8561,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26CF)
-    (at 191.575001 -8.154999)
+    (at 373.575001 -58.954999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D6E00D7)
     (fp_text reference TP88 (at 0 -1.5) (layer F.SilkS)
@@ -8580,7 +8580,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26D7)
-    (at 178.825001 -5.674999)
+    (at 360.825001 -56.474999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D6E00E5)
     (fp_text reference TP89 (at 0 -1.5) (layer F.SilkS)
@@ -8599,7 +8599,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26DF)
-    (at 169.185001 -7.984999)
+    (at 351.185001 -58.784999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D6E00F3)
     (fp_text reference TP90 (at 0 -1.5) (layer F.SilkS)
@@ -8618,7 +8618,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26E7)
-    (at 176.375001 -3.724999)
+    (at 358.375001 -54.524999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D77AA45)
     (fp_text reference TP91 (at 0 -1.5) (layer F.SilkS)
@@ -8637,7 +8637,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26EF)
-    (at 187.725001 -4.184999)
+    (at 369.725001 -54.984999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D815B6C)
     (fp_text reference TP92 (at 0 -1.5) (layer F.SilkS)
@@ -8656,7 +8656,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26F7)
-    (at 175.675001 -13.934999)
+    (at 357.675001 -64.734999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D8B0E18)
     (fp_text reference TP93 (at 0 -1.5) (layer F.SilkS)
@@ -8675,7 +8675,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F26FF)
-    (at 183.075001 -9.444999)
+    (at 365.075001 -60.244999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D8B0E26)
     (fp_text reference TP94 (at 0 -1.5) (layer F.SilkS)
@@ -8694,7 +8694,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2707)
-    (at 167.635001 -6.514999)
+    (at 349.635001 -57.314999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5DF635A5)
     (fp_text reference TP95 (at 0 -1.5) (layer F.SilkS)
@@ -8713,7 +8713,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F270F)
-    (at 174.125001 -12.384999)
+    (at 356.125001 -63.184999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5DF635B3)
     (fp_text reference TP96 (at 0 -1.5) (layer F.SilkS)
@@ -8732,7 +8732,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F2717)
-    (at 180.375001 -7.184999)
+    (at 362.375001 -57.984999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5DF635C1)
     (fp_text reference TP97 (at 0 -1.5) (layer F.SilkS)
@@ -8751,7 +8751,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F271F)
-    (at 178.825001 -16.954999)
+    (at 360.825001 -67.754999)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5DF635CF)
     (fp_text reference TP98 (at 0 -1.5) (layer F.SilkS)
@@ -9614,7 +9614,7 @@
   )
 
   (module Sentisa-IC:SO-8 (layer F.Cu) (tedit 5C2E4716) (tstamp 5C3F291C)
-    (at 6.2 214.2)
+    (at 323.5 -140)
     (tags "N IRF 7324 PBF SO-8")
     (path /5CDC1365)
     (attr smd)
