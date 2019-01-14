@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:AD8603 U?
+L Amplifier_Operational:LM321 U?
 U 1 1 5C48099D
 P 5250 3700
 AR Path="/5C48099D" Ref="U?"  Part="1" 
@@ -23,8 +23,10 @@ AR Path="/5C398D6C/5C48099D" Ref="U17"  Part="1"
 AR Path="/5C839FF6/5C48099D" Ref="U18"  Part="1" 
 F 0 "U17" H 5350 3800 50  0000 L CNN
 F 1 "TBD" H 5350 3550 50  0000 L CNN
-F 2 "" H 5250 3700 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf" H 5250 3900 50  0001 C CNN
+F 2 "TBD" H 5250 3700 50  0001 C CNN
+F 3 "" H 5250 3900 50  0001 C CNN
+F 4 "TBD" H 5250 3700 50  0001 C CNN "MFR"
+F 5 "TBD" H 5250 3700 50  0001 C CNN "MPN"
 	1    5250 3700
 	1    0    0    -1  
 $EndComp
@@ -113,15 +115,15 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C4809ED
-P 3450 3550
+P 2800 3550
 AR Path="/5C4809ED" Ref="R?"  Part="1" 
 AR Path="/5C398D6C/5C4809ED" Ref="R39"  Part="1" 
 AR Path="/5C839FF6/5C4809ED" Ref="R46"  Part="1" 
-F 0 "R39" H 3520 3596 50  0000 L CNN
-F 1 "10k 1%" H 3520 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 3550 50  0001 C CNN
-F 3 "~" H 3450 3550 50  0001 C CNN
-	1    3450 3550
+F 0 "R39" H 2870 3596 50  0000 L CNN
+F 1 "10k 1%" H 2870 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 3550 50  0001 C CNN
+F 3 "~" H 2800 3550 50  0001 C CNN
+	1    2800 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -137,9 +139,9 @@ Wire Wire Line
 	3900 2750 5150 2750
 Connection ~ 5150 2750
 Wire Wire Line
-	3450 3700 3450 3800
+	2800 3700 2800 3800
 Wire Wire Line
-	3450 3800 3900 3800
+	2800 3800 3700 3800
 $Comp
 L Device:R R?
 U 1 1 5C480A0B
@@ -209,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 2700 6800 2800
 Wire Wire Line
-	3450 3400 3450 2200
+	2800 3400 2800 2200
 Wire Wire Line
 	8300 3900 8200 3900
 Wire Wire Line
@@ -237,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 4000 8200 4000
 Wire Wire Line
-	3450 2200 8000 2200
+	2800 2200 8000 2200
 Connection ~ 8200 4000
 Text HLabel 4850 3600 0    50   Input ~ 0
 DAC_IN
@@ -265,24 +267,18 @@ Text HLabel 8200 4500 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	8200 4400 8200 4500
-Text Notes 5600 3650 0    150  ~ 30
-?
-Text Notes 7400 3450 0    150  ~ 30
-?
-Text Notes 7450 4100 0    150  ~ 30
-?
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5D2DDD20
-P 3350 3800
+P 2700 3800
 AR Path="/5D2DDD20" Ref="TP?"  Part="1" 
 AR Path="/5C398D6C/5D2DDD20" Ref="TP80"  Part="1" 
 AR Path="/5C839FF6/5D2DDD20" Ref="TP82"  Part="1" 
-F 0 "TP80" V 3545 3874 50  0000 C CNN
-F 1 "TP" V 3454 3874 50  0000 C CNN
-F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 3550 3800 50  0001 C CNN
-F 3 "~" H 3550 3800 50  0001 C CNN
-	1    3350 3800
+F 0 "TP80" V 2895 3874 50  0000 C CNN
+F 1 "TP" V 2804 3874 50  0000 C CNN
+F 2 "Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill" H 2900 3800 50  0001 C CNN
+F 3 "~" H 2900 3800 50  0001 C CNN
+	1    2700 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -335,6 +331,37 @@ Wire Wire Line
 	6300 3300 6300 3400
 Connection ~ 6300 3400
 Wire Wire Line
-	3350 3800 3450 3800
-Connection ~ 3450 3800
+	2700 3800 2800 3800
+Connection ~ 2800 3800
+$Comp
+L Device:R_POT RV3
+U 1 1 5CE44E8E
+P 3450 3200
+AR Path="/5C398D6C/5CE44E8E" Ref="RV3"  Part="1" 
+AR Path="/5C839FF6/5CE44E8E" Ref="RV4"  Part="1" 
+F 0 "RV3" H 3380 3246 50  0000 R CNN
+F 1 "20k" H 3380 3155 50  0000 R CNN
+F 2 "Sentisa-Resistors:Potentiometer_SR_Passives_T910W_Vertical" H 3450 3200 50  0001 C CNN
+F 3 "~" H 3450 3200 50  0001 C CNN
+F 4 "SR Passives" H 3450 3200 50  0001 C CNN "MFR"
+F 5 "T910W-20K" H 3450 3200 50  0001 C CNN "MPN"
+	1    3450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3200 3700 3200
+Wire Wire Line
+	3700 3200 3700 3800
+Connection ~ 3700 3800
+Wire Wire Line
+	3700 3800 3900 3800
+Text HLabel 3450 3450 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	3450 3450 3450 3350
+Wire Wire Line
+	3450 3050 3450 2750
+Wire Wire Line
+	3450 2750 3900 2750
+Connection ~ 3900 2750
 $EndSCHEMATC
