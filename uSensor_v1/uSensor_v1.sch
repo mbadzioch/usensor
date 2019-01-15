@@ -3362,7 +3362,7 @@ Wire Notes Line
 Text Notes 10900 7750 0    50   ~ 0
 FT
 NoConn ~ 13600 5450
-Text GLabel 12750 13850 0    50   Input ~ 0
+Text GLabel 11200 16850 0    50   Input ~ 0
 FOC_ERR_2_ADC
 $Comp
 L power:GNDA #PWR0115
@@ -3377,11 +3377,11 @@ F 3 "" H 14250 16650 50  0001 C CNN
 $EndComp
 Text GLabel 11200 13850 0    50   Input ~ 0
 SENS_A
-Text GLabel 11200 14850 0    50   Input ~ 0
+Text GLabel 12750 13850 0    50   Input ~ 0
 SENS_B
-Text GLabel 11200 15850 0    50   Input ~ 0
+Text GLabel 12450 16450 0    50   Input ~ 0
 SENS_C
-Text GLabel 11200 16850 0    50   Input ~ 0
+Text GLabel 11200 14850 0    50   Input ~ 0
 SENS_D
 Wire Wire Line
 	14850 15350 14750 15350
@@ -3404,7 +3404,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 16250 14750 15950
 Connection ~ 14750 15950
-Text GLabel 12450 16450 0    50   Input ~ 0
+Text GLabel 11200 15850 0    50   Input ~ 0
 SENS_PD
 Wire Wire Line
 	14750 16250 14750 16550
