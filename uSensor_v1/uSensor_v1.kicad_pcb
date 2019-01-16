@@ -7867,7 +7867,7 @@
   )
 
   (module Sentisa-Connectors:TestPoint_Probe_1.0mmDiameter_0.6mmDrill (layer F.Cu) (tedit 5BC876AD) (tstamp 5C3F24AF)
-    (at 70.2 25.2)
+    (at 70 25.7)
     (tags TestPoint_Probe_1.0mmDiameter_0.6mmDrill)
     (path /5D51604C)
     (fp_text reference TP20 (at 0 -1.5) (layer F.SilkS)
