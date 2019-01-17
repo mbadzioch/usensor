@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 9200 13200 9100
 Connection ~ 13200 9100
-Text GLabel 13800 9500 2    40   Output ~ 0
+Text GLabel 13700 11100 2    40   Output ~ 0
 TEMP_SENS_OUT_1
 Wire Wire Line
 	13800 9500 13600 9500
@@ -920,7 +920,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 10800 13200 10700
 Connection ~ 13200 10700
-Text GLabel 13700 11100 2    40   Output ~ 0
+Text GLabel 13800 9500 2    40   Output ~ 0
 TEMP_SENS_OUT_2
 Wire Wire Line
 	13700 11100 13600 11100
@@ -1381,13 +1381,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5C42724A
-P 850 2200
-F 0 "J1" V 1150 2150 50  0000 C CNN
-F 1 "+12V Supply" V 1050 2150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2200 50  0001 C CNN
-F 3 "~" H 850 2200 50  0001 C CNN
-F 4 "Main Supply Connector" V 950 2150 50  0000 C CNN "Function"
-	1    850  2200
+P 950 2200
+F 0 "J1" V 1250 2150 50  0000 C CNN
+F 1 "+12V Supply" V 1150 2150 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 950 2200 50  0001 C CNN
+F 3 "~" H 950 2200 50  0001 C CNN
+F 4 "Main Supply Connector" V 1050 2150 50  0000 C CNN "Function"
+	1    950  2200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1430,12 +1430,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 2500 2200 2400
 Wire Wire Line
-	1050 2300 1350 2300
+	1150 2300 1350 2300
 Wire Wire Line
 	1450 2300 1450 2500
 Connection ~ 2200 2500
 Wire Wire Line
-	1050 2200 1250 2200
+	1150 2200 1250 2200
 Wire Wire Line
 	1450 2200 1450 2000
 Wire Wire Line
