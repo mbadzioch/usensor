@@ -3156,7 +3156,7 @@ Text GLabel 11000 9350 2    50   Output ~ 0
 DAC_SCL
 Text GLabel 11000 9450 2    50   BiDi ~ 0
 DAC_SDA
-Text GLabel 11000 9250 2    50   Output ~ 0
+Text GLabel 11000 9150 2    40   Output ~ 0
 DAC_~CLR
 Wire Wire Line
 	11000 9350 10900 9350
@@ -3552,7 +3552,7 @@ Text GLabel 6600 15050 0    50   Input ~ 0
 DAC_ADDR
 Wire Wire Line
 	6600 15050 6700 15050
-Text GLabel 11000 9150 2    50   Output ~ 0
+Text GLabel 11000 9050 2    50   Output ~ 0
 DAC_ADDR
 NoConn ~ 14850 16950
 Wire Notes Line
@@ -3920,9 +3920,9 @@ Text GLabel 10500 23700 3    50   Input ~ 0
 SENS_A
 Text GLabel 11100 23700 3    50   Input ~ 0
 SENS_C
-Text GLabel 9700 24550 0    50   Input ~ 0
-DAC_~CLR
 Text GLabel 9700 24750 0    50   Input ~ 0
+DAC_~CLR
+Text GLabel 9700 24350 0    50   Input ~ 0
 DAC_ADDR
 Text GLabel 9700 24950 0    50   BiDi ~ 0
 DAC_SDA
@@ -5651,7 +5651,7 @@ Wire Wire Line
 Connection ~ 2350 13850
 Text GLabel 6500 15450 0    50   Input ~ 0
 DAC_~LDAC
-Text GLabel 11000 9050 2    50   Output ~ 0
+Text GLabel 11000 9250 2    40   Output ~ 0
 DAC_~LDAC
 Wire Wire Line
 	10900 9050 11000 9050
@@ -6201,7 +6201,7 @@ Wire Wire Line
 	10900 8350 11000 8350
 Wire Wire Line
 	2500 8550 3100 8550
-Text GLabel 9700 24350 0    50   Input ~ 0
+Text GLabel 9700 24550 0    50   Input ~ 0
 DAC_~LDAC
 $Comp
 L Connector:TestPoint TP21
