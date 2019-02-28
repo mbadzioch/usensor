@@ -19,7 +19,7 @@
 //}phot_measures_T;
 
 
-void Photo_Init();
+void Photo_Init(void);
 //void PHOT_GetMeas(phot_measures_T* meas);
 //void DMA2_Stream0_IRQHandler();
 

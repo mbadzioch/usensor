@@ -2,56 +2,39 @@
 #include "stm32f4_discovery.h"
 #include "delay.h"
 #include "diag/Trace.h"
+#include "coil_driver.h"
+#include "phot_meas.h"
+#include "temp_meas.h"
+//#include "driver.h"
 
 
+//temp_measures_T measuren;
 
 void main(void)
 {
-
-	//SystemInit();
+	SystemInit();
 	DelayInit();
 
-	//TM_LEDS_Init();
-//
-//	  GPIO_InitTypeDef  GPIO_InitStructure;
-//
-//	  /* Enable the GPIO_LED Clock */
-//	  RCC_AHB2PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
-//
-//	  /* Configure the GPIO_LED pin */
-//	  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
-//	  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-//	  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-//	  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
-//	  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_25MHz;
-//	  GPIO_Init(GPIOB, &GPIO_InitStructure);
+	//*** inicjalizacja debugcom ***
+	Debug_Init();
+
+	//*** inicjalizacja dac ***
+	DAC_OUT_Coil_Ctrl_Init();
+
+	uint16_t value = 30000; 	//16bit
+	DAC_SetVoltage(value);
+
+	//*** inicjalizacja wewnêtrznego adc - temp_meas ***
+	Temp_SENS_Init();
+//	TEMP_GetMeas(measuren);
+
+	//*** inicjalizacja zewnetrznego adc phot_meas ***
+	Photo_Init();
 
 
-	  GPIO_InitTypeDef  GPIO_InitStructure;
-
-	  /* Enable the GPIO_LED Clock */
-	  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
-
-	  /* Configure the GPIO_LED pin */
-	  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7 ;
-	  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-	  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-	  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
-	  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	  GPIO_Init(GPIOB, &GPIO_InitStructure);
-
-	  GPIO_ResetBits(GPIOB, GPIO_Pin_7);
 
 	while(1)
 	{
-		//trace_puts("huj cio w dupe");
-//		STM_EVAL_LEDToggle(LED4);
-		//GPIO_ToggleBits(GPIOB, GPIO_Pin_7);
-//		GPIO_SetBits(GPIOB, GPIO_Pin_7);
-//		Delay_ms(500);
-//		GPIO_ResetBits(GPIOB, GPIO_Pin_7);
-//		Delay_ms(500);
-		//trace_puts("zmienna");
 
 	}
 }

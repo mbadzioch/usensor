@@ -23,7 +23,7 @@ uint8_t phot_transfer_ready_flag=0;
 
 
 // ******** EXTERNAL ****************
-void Photo_Init(){
+void Photo_Init(void){
 
 	GPIO_InitTypeDef  GPIO_InitStructure;
 	SPI_InitTypeDef  SPI_InitStructure;
