@@ -9,7 +9,10 @@
 
 
 //temp_measures_T measuren;
+<<<<<<< HEAD
 uint8_t spi_read;
+=======
+>>>>>>> 70982ca285d9fdaf3244f07c7000b50ed46b8019
 
 void main(void)
 {
@@ -31,9 +34,13 @@ void main(void)
 
 	//*** inicjalizacja zewnetrznego adc phot_meas ***
 	Photo_Init();
+<<<<<<< HEAD
 	Spi_Write8bit(0x77);					//COMMUNICATIONS REGISTER -> STATUS REGISTER
 	spi_read = Spi_Read8bit(0x71);			// set ERR, CH0
 	printf('read: %d', spi_read);
+=======
+
+>>>>>>> 70982ca285d9fdaf3244f07c7000b50ed46b8019
 
 
 	while(1)
