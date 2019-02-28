@@ -34,7 +34,8 @@ src/main.o: ../src/main.c ../system/include/cmsis/stm32f4xx.h \
  ../system/include/stm_spl/stm32f4xx_ltdc.h \
  ../system/include/stm_spl/stm32f4xx_sai.h ../include/stm32f4_discovery.h \
  ../include/delay.h ../system/include/cmsis/stm32f4xx_conf.h \
- ../system/include/diag/Trace.h
+ ../system/include/diag/Trace.h ../include/coil_driver.h \
+ ../include/phot_meas.h ../include/temp_meas.h
 
 ../system/include/cmsis/stm32f4xx.h:
 
@@ -113,3 +114,9 @@ src/main.o: ../src/main.c ../system/include/cmsis/stm32f4xx.h \
 ../system/include/cmsis/stm32f4xx_conf.h:
 
 ../system/include/diag/Trace.h:
+
+../include/coil_driver.h:
+
+../include/phot_meas.h:
+
+../include/temp_meas.h:

@@ -19,7 +19,10 @@
 //}phot_measures_T;
 
 
-void Photo_Init();
+void Photo_Init(void);
+int8_t Spi_Read8bit(uint8_t data);
+void Spi_Write8bit(uint8_t data);
+
 //void PHOT_GetMeas(phot_measures_T* meas);
 //void DMA2_Stream0_IRQHandler();
 

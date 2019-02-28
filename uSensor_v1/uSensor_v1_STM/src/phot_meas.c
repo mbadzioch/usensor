@@ -23,7 +23,7 @@ uint8_t phot_transfer_ready_flag=0;
 
 
 // ******** EXTERNAL ****************
-void Photo_Init(){
+void Photo_Init(void){
 
 	GPIO_InitTypeDef  GPIO_InitStructure;
 	SPI_InitTypeDef  SPI_InitStructure;
@@ -79,11 +79,11 @@ void Photo_Init(){
 
 // ******** INTERNAL ****************
 
-int8_t Spi_GetReg(uint8_t reg)
+int8_t Spi_Read8bit(uint8_t data)
 {
-	uint16_t data;
+//	uint16_t data;
+//	data=(reg|0x80)<<8;
 
-	data=(reg|0x80)<<8;
 
     GPIO_ResetBits(GPIOA, GPIO_Pin_15);
     while (SPI_I2S_GetFlagStatus(SPI3, SPI_I2S_FLAG_TXE) == RESET);
@@ -97,18 +97,18 @@ int8_t Spi_GetReg(uint8_t reg)
 
     return data;
 }
-void Spi_Send(uint8_t reg, uint8_t data)
+void Spi_Write8bit(uint8_t data)
 {
-	uint16_t temp;
-
-	temp = reg;
-	temp = temp << 8;
-	temp |= data;
-	temp &= ~0x8000;
+//	uint16_t temp;
+//
+//	temp = reg;
+//	temp = temp << 8;
+//	temp |= data;
+//	temp &= ~0x8000;
 
     GPIO_ResetBits(GPIOA, GPIO_Pin_15);
     while (SPI_I2S_GetFlagStatus(SPI3, SPI_I2S_FLAG_TXE) == RESET);
-    SPI_I2S_SendData(SPI3, temp);
+    SPI_I2S_SendData(SPI3, data);
 //	    while(SPI_I2S_GetFlagStatus(SPI1,SPI_I2S_FLAG_TXE)==0);
 //	    SPI_I2S_ReceiveData(SPI1);
 //	    SPI_I2S_SendData(SPI1, 0xff);
